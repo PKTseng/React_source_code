@@ -32,11 +32,16 @@ function App() {
     },
   ]
 
-  // function inputText(e) {
-  //   return console.log(e.target.value)
-  // }
+  function inputText(e) {
+    return console.log(e.target.value)
+  }
 
-  const inputText = (e) => console.log(e.target.value)
+  function handleItem(item) {
+    return (e) => {
+      console.log(e.target)
+      console.log(item)
+    }
+  }
 
   return (
     <>
@@ -49,7 +54,7 @@ function App() {
 
       {microBlogs.length > 0 ? (
         microBlogs.map((item) => (
-          <div key={item.id}>
+          <div key={item.id} onClick={handleItem(item)}>
             <img src={item.author.avatar} alt="" />
             <div> {item.author.name}</div>
 
