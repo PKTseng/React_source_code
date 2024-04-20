@@ -12,7 +12,7 @@ function PostListItem(props) {
   // const { item, msg = 'msg' } = props // 給 msg 預設值
 
   // 如果父組件沒有傳遞 props  寫法
-  const { item = { author: {} }, msg = 'msg' } = props
+  const { item = { author: {} }, msg = 'msg', children } = props
 
   return (
     <div className="post" onClick={handleItem}>
@@ -25,6 +25,8 @@ function PostListItem(props) {
           <p className="postDate">{item.publishDate}</p>
         </div>
       </div>
+
+      <div>{children}</div>
     </div>
   )
 }

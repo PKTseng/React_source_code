@@ -48,6 +48,14 @@ function App() {
     return console.log(e.target.value)
   }
 
+  function EditBtn() {
+    return (
+      <>
+        <button>Edit</button>
+      </>
+    )
+  }
+
   return (
     <div className="container">
       <p style={textStyle}>{title}</p>
@@ -58,7 +66,15 @@ function App() {
       </div>
 
       <div className="postList">
-        {microBlogs.length > 0 ? microBlogs.map((item) => <PostListItem key={item.id} item={item} />) : <p> no data</p>}
+        {microBlogs.length > 0 ? (
+          microBlogs.map((item) => (
+            <PostListItem key={item.id} item={item}>
+              <EditBtn />
+            </PostListItem>
+          ))
+        ) : (
+          <p> no data</p>
+        )}
       </div>
     </div>
   )
