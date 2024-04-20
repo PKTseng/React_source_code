@@ -1,48 +1,53 @@
-.container {
-  width: 400px;
-  margin: 0 auto;
-  padding-top: 24px;
-  display: grid;
-  row-gap: 24px;
+/* App.css */
+body {
+  background-color: #f6f9fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.container {
+  max-width: 680px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(50, 50, 93, 0.11), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
 
 .publishBlog {
-  display: grid;
-}
-
-.publishBlog textarea {
-  border: none;
-}
-
-.publishBlog button {
-  justify-self: end;
-}
-
-.post {
-  border-bottom: 1px solid var(--border-color);
-  margin-bottom: 24px;
-
-  display: grid;
-  grid-template-columns: 80px 1fr;
-  column-gap: 20px;
-}
-
-.post img {
-  width: 64px;
-  height: 64px;
-}
-
-.postMeta {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 16px;
-  margin-bottom: 24px;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.postAuthor {
-  font-weight: 600;
+textarea {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f6f9fc;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
-.postDate {
-  color: #666666;
+
+button {
+  padding: 12px 25px;
+  background: linear-gradient(45deg, #5469d4, #6741d9);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(45deg, #6574cd, #7659d4);
+}
+
+.postList {
+  margin-top: 30px;
 }

@@ -4,6 +4,8 @@ import UserImage1 from './assets/images/user1.png'
 import UserImage2 from './assets/images/user2.png'
 import UserImage3 from './assets/images/user3.png'
 
+import PostListItem from './components/PostListItem'
+
 function App() {
   const title = 'title'
   const microBlogs = [
@@ -36,26 +38,19 @@ function App() {
     },
   ]
 
-  const h1Style = {
-    // fontSize: '64', // default px
-    fontSize: '4rem',
-    color: '#00FF00',
+  const textStyle = {
+    fontSize: '28',
+    color: '#32325d',
+    textAlign: 'center',
   }
 
   function inputText(e) {
     return console.log(e.target.value)
   }
 
-  function handleItem(item) {
-    return (e) => {
-      console.log(e.target)
-      console.log(item)
-    }
-  }
-
   return (
     <div className="container">
-      <h1 style={h1Style}>{title}</h1>
+      <p style={textStyle}>{title}</p>
 
       <div className="publishBlog">
         <textarea name="some thing" id="" cols="30" rows="10" onInput={inputText}></textarea>
@@ -63,22 +58,7 @@ function App() {
       </div>
 
       <div className="postList">
-        {microBlogs.length > 0 ? (
-          microBlogs.map((item) => (
-            <div className="post" key={item.id} onClick={handleItem}>
-              <img src={item.author.avatar} alt="" />
-              <div className="postContainer">
-                <p className="postContent">{item.content}</p>
-                <div className="postMeta">
-                  <p className="postAuthor">{item.author.name}</p>
-                  <p className="postDate">{item.publishDate}</p>
-                </div>
-              </div>
-            </div>
-          ))
-        ) : (
-          <p> no data</p>
-        )}
+        {microBlogs.length > 0 ? microBlogs.map((item) => <PostListItem key={item.id} item={item} />) : <p> no data</p>}
       </div>
     </div>
   )
