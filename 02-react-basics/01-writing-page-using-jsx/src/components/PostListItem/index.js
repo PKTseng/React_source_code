@@ -9,12 +9,14 @@ function handleItem(item) {
 }
 
 function PostListItem(props) {
-  // console.log(props)
+  // const { item, msg = 'msg' } = props // 給 msg 預設值
 
-  const { item } = props
+  // 如果父組件沒有傳遞 props  寫法
+  const { item = { author: {} }, msg = 'msg' } = props
 
   return (
     <div className="post" onClick={handleItem}>
+      <div>{msg}</div>
       <img src={item.author.avatar} alt="" />
       <div className="postContainer">
         <p className="postContent">{item.content}</p>
