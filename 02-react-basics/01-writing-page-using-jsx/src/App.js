@@ -1,5 +1,9 @@
 import './App.css'
 
+import UserImage1 from './assets/images/user1.png'
+import UserImage2 from './assets/images/user2.png'
+import UserImage3 from './assets/images/user3.png'
+
 function App() {
   const title = 'title'
   const microBlogs = [
@@ -7,7 +11,7 @@ function App() {
       id: 1,
       author: {
         name: '张小丰',
-        avatar: '',
+        avatar: UserImage1,
       },
       content: '这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？',
       publishDate: '2022-10-25',
@@ -16,7 +20,7 @@ function App() {
       id: 2,
       author: {
         name: '王小玲',
-        avatar: '',
+        avatar: UserImage2,
       },
       content: '这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？',
       publishDate: '2022-10-25',
@@ -25,7 +29,7 @@ function App() {
       id: 3,
       author: {
         name: '李小明',
-        avatar: '',
+        avatar: UserImage3,
       },
       content: '这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？',
       publishDate: '2022-10-25',
@@ -33,7 +37,8 @@ function App() {
   ]
 
   const h1Style = {
-    fontSize: '64px',
+    // fontSize: '64', // default px
+    fontSize: '4rem',
     color: '#00FF00',
   }
 

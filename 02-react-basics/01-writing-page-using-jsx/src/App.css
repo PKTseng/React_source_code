@@ -12,7 +12,6 @@
 
 .publishBlog textarea {
   border: none;
-  background: powderblue;
 }
 
 .publishBlog button {
@@ -26,6 +25,11 @@
   display: grid;
   grid-template-columns: 80px 1fr;
   column-gap: 20px;
+}
+
+.post img {
+  width: 64px;
+  height: 64px;
 }
 
 .postMeta {
