@@ -1,38 +1,35 @@
-import "./App.css";
+import './App.css'
 
 function App() {
   const microBlogs = [
     {
       id: 1,
       author: {
-        name: "张小丰",
-        avatar: "",
+        name: '张小丰',
+        avatar: '',
       },
-      content:
-        "这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？",
-      publishDate: "2022-10-25",
+      content: '这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？',
+      publishDate: '2022-10-25',
     },
     {
       id: 2,
       author: {
-        name: "王小玲",
-        avatar: "",
+        name: '王小玲',
+        avatar: '',
       },
-      content:
-        "这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？",
-      publishDate: "2022-10-25",
+      content: '这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？',
+      publishDate: '2022-10-25',
     },
     {
       id: 3,
       author: {
-        name: "李小明",
-        avatar: "",
+        name: '李小明',
+        avatar: '',
       },
-      content:
-        "这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？",
-      publishDate: "2022-10-25",
+      content: '这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？',
+      publishDate: '2022-10-25',
     },
-  ];
+  ]
 
   return (
     <main className="container">
@@ -60,7 +57,7 @@ function App() {
         )}
       </div>
     </main>
-  );
+  )
 }
 
-export default App;
+export default App

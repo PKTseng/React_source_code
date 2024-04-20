@@ -32,6 +32,11 @@ function App() {
     },
   ]
 
+  const h1Style = {
+    fontSize: '64px',
+    color: '#00FF00',
+  }
+
   function inputText(e) {
     return console.log(e.target.value)
   }
@@ -44,28 +49,33 @@ function App() {
   }
 
   return (
-    <>
-      <h1 style={{ fontSize: '64px', color: 'orange' }}>{title}</h1>
+    <div className="container">
+      <h1 style={h1Style}>{title}</h1>
 
-      <div>
+      <div className="publishBlog">
         <textarea name="some thing" id="" cols="30" rows="10" onInput={inputText}></textarea>
         <button>submit</button>
       </div>
 
-      {microBlogs.length > 0 ? (
-        microBlogs.map((item) => (
-          <div key={item.id} onClick={handleItem(item)}>
-            <img src={item.author.avatar} alt="" />
-            <div> {item.author.name}</div>
-
-            <p>{item.content}</p>
-            <p>{item.publishDate}</p>
-          </div>
-        ))
-      ) : (
-        <p> no data</p>
-      )}
-    </>
+      <div className="postList">
+        {microBlogs.length > 0 ? (
+          microBlogs.map((item) => (
+            <div className="post" key={item.id} onClick={handleItem}>
+              <img src={item.author.avatar} alt="" />
+              <div className="postContainer">
+                <p className="postContent">{item.content}</p>
+                <div className="postMeta">
+                  <p className="postAuthor">{item.author.name}</p>
+                  <p className="postDate">{item.publishDate}</p>
+                </div>
+              </div>
+            </div>
+          ))
+        ) : (
+          <p> no data</p>
+        )}
+      </div>
+    </div>
   )
 }
 
