@@ -49,9 +49,13 @@ function App() {
   }
 
   function EditBtn({ onEdit }) {
+    function handleEdit() {
+      onEdit('handleEdit')
+    }
+
     return (
       <>
-        <button onClick={onEdit}>Edit</button>
+        <button onClick={handleEdit}>Edit</button>
       </>
     )
   }
@@ -69,7 +73,7 @@ function App() {
         {microBlogs.length > 0 ? (
           microBlogs.map((item) => (
             <PostListItem key={item.id} item={item}>
-              <EditBtn onEdit={() => console.log(item.id)} />
+              <EditBtn onEdit={(action) => console.log(item.id, action)} />
             </PostListItem>
           ))
         ) : (
