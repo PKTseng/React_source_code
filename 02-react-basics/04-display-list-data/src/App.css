@@ -1,0 +1,60 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  color: #333;
+}
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.microblogItem {
+  margin-top: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  display: flex;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.microblogContent {
+  flex: 1;
+}
+
+.author-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.content {
+  margin-bottom: 5px;
+}
+
+.date {
+  color: #657786;
+  font-size: 0.9em;
+}
