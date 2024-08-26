@@ -92,17 +92,21 @@ function App() {
       <button style={styles.button}>发布</button>
 
       <div>
-        {microBlogs.map((item) => (
-          <div key={item.id} style={styles.microblogItem}>
-            <img src={item.author.avatar} alt={item.author.name} style={styles.avatar} />
+        {microBlogs.length > 0 ? (
+          microBlogs.map((item) => (
+            <div key={item.id} style={styles.microblogItem}>
+              <img src={item.author.avatar} alt={item.author.name} style={styles.avatar} />
 
-            <div style={styles.microblogContent}>
-              <p style={styles.authorName}>{item.author.name}</p>
-              <p style={styles.content}>{item.content}</p>
-              <p style={styles.date}>{item.publishDate}</p>
+              <div style={styles.microblogContent}>
+                <p style={styles.authorName}>{item.author.name}</p>
+                <p style={styles.content}>{item.content}</p>
+                <p style={styles.date}>{item.publishDate}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))
+        ) : (
+          <p>暫無列表</p>
+        )}
       </div>
     </main>
   )
