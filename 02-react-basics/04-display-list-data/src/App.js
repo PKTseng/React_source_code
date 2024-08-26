@@ -6,7 +6,7 @@ function App() {
       id: 1,
       author: {
         name: '张小丰',
-        avatar: '',
+        avatar: 'https://placekitten.com/50/50',
       },
       content: '这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？',
       publishDate: '2022-10-25',
@@ -15,7 +15,7 @@ function App() {
       id: 2,
       author: {
         name: '王小玲',
-        avatar: '',
+        avatar: 'https://placekitten.com/51/51',
       },
       content: '这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？',
       publishDate: '2022-10-25',
@@ -24,30 +24,82 @@ function App() {
       id: 3,
       author: {
         name: '李小明',
-        avatar: '',
+        avatar: 'https://placekitten.com/52/52',
       },
       content: '这是一条微博信息，今天的天气真不错啊，出去玩啊？你们觉得怎么样？要不下午4 点出去？',
       publishDate: '2022-10-25',
     },
   ]
 
+  const styles = {
+    container: {
+      maxWidth: '600px',
+      margin: '0 auto',
+      padding: '20px',
+      fontFamily: 'Arial, sans-serif',
+    },
+    header: {
+      textAlign: 'center',
+      color: '#333',
+    },
+    textarea: {
+      width: '100%',
+      padding: '10px',
+      marginBottom: '10px',
+      borderRadius: '5px',
+      border: '1px solid #ddd',
+    },
+    button: {
+      padding: '10px 20px',
+      backgroundColor: '#1da1f2',
+      color: 'white',
+      border: 'none',
+      borderRadius: '5px',
+      cursor: 'pointer',
+    },
+    microblogItem: {
+      borderBottom: '1px solid #eee',
+      padding: '15px 0',
+      display: 'flex',
+    },
+    avatar: {
+      width: '50px',
+      height: '50px',
+      borderRadius: '50%',
+      marginRight: '15px',
+    },
+    microblogContent: {
+      flex: 1,
+    },
+    authorName: {
+      fontWeight: 'bold',
+      marginBottom: '5px',
+    },
+    content: {
+      marginBottom: '5px',
+    },
+    date: {
+      color: '#657786',
+      fontSize: '0.9em',
+    },
+  }
+
   return (
-    <main className="container">
-      <h1>欢迎使用本应用 🍂</h1>
+    <main style={styles.container}>
+      <h1 style={styles.header}>欢迎使用本应用 🍂</h1>
 
-      <textarea placeholder="写点什么吧..." cols="30" rows="5"></textarea>
-      <button>发布</button>
+      <textarea style={styles.textarea} placeholder="写点什么吧..." rows="5"></textarea>
+      <button style={styles.button}>发布</button>
 
-      <div className="">
-        {microBlogs.map((microBlog) => (
-          <div key={microBlog.id}>
-            <img src={microBlog.author.avatar} alt="" />
-            <div>
-              <p>{microBlog.content}</p>
-              <div>
-                <p>{microBlog.author.name}</p>
-                <p>{microBlog.publishDate}</p>
-              </div>
+      <div>
+        {microBlogs.map((item) => (
+          <div key={item.id} style={styles.microblogItem}>
+            <img src={item.author.avatar} alt={item.author.name} style={styles.avatar} />
+
+            <div style={styles.microblogContent}>
+              <p style={styles.authorName}>{item.author.name}</p>
+              <p style={styles.content}>{item.content}</p>
+              <p style={styles.date}>{item.publishDate}</p>
             </div>
           </div>
         ))}
