@@ -45,10 +45,16 @@ function App() {
     }
   }
 
+  const headerStyle = {
+    fontSize: '26px',
+    color: 'red',
+  }
+
   return (
     <main className="container">
       {/* <h1 className="header">Hello World 🍂</h1> */}
-      <h1 style={{ fontSize: '26px', color: 'red' }}>Hello World 🍂</h1>
+      {/* <h1 style={{ fontSize: '26px', color: 'red' }}>Hello World 🍂</h1> */}
+      <h1 style={headerStyle}>Hello World 🍂</h1>
 
       <textarea onInput={handleInput} className="textarea" placeholder="Write something" rows="5"></textarea>
       <button className="button">Submit</button>
