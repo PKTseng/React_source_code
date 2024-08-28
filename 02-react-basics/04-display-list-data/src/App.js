@@ -31,17 +31,32 @@ function App() {
     },
   ]
 
+  const handleInput = (e) => {
+    console.log(e.target.value)
+  }
+
+  // const handleClick = (item) => {
+  //   console.log(item)
+  // }
+
+  function handleClick(item) {
+    return () => {
+      console.log(item)
+    }
+  }
+
   return (
     <main className="container">
-      <h1 className="header">Hello World 🍂</h1>
+      {/* <h1 className="header">Hello World 🍂</h1> */}
+      <h1 style={{ fontSize: '26px', color: 'red' }}>Hello World 🍂</h1>
 
-      <textarea className="textarea" placeholder="Write something" rows="5"></textarea>
+      <textarea onInput={handleInput} className="textarea" placeholder="Write something" rows="5"></textarea>
       <button className="button">Submit</button>
 
       <div>
         {microBlogs.length > 0 ? (
           microBlogs.map((item) => (
-            <div key={item.id} className="microblogItem">
+            <div key={item.id} className="microblogItem" onClick={handleClick(item)}>
               <img src={item.author.avatar} alt={item.author.name} className="avatar" />
 
               <div className="microblogContent">

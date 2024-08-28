@@ -2416,7 +2416,7 @@
   resolved "https://registry.npmjs.org/@xtuc/long/-/long-4.2.2.tgz"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"01-add-styled-component@file:C:\\Users\\kents\\Desktop\\source_code\\18-styled-components\\01-add-styled-component":
+"01-add-styled-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\01-add-styled-component":
   version "0.1.0"
   resolved "file:18-styled-components/01-add-styled-component"
   dependencies:
@@ -2429,7 +2429,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"01-css-transitions@file:C:\\Users\\kents\\Desktop\\source_code\\19-react-animations\\01-css-transitions":
+"01-css-transitions@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\01-css-transitions":
   version "0.1.0"
   resolved "file:19-react-animations/01-css-transitions"
   dependencies:
@@ -2442,7 +2442,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"01-do-not-overlooking-dep-arrs@file:C:\\Users\\kents\\Desktop\\source_code\\10-advanced-effects\\01-do-not-overlooking-dep-arrs":
+"01-do-not-overlooking-dep-arrs@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\01-do-not-overlooking-dep-arrs":
   version "0.1.0"
   resolved "file:10-advanced-effects/01-do-not-overlooking-dep-arrs"
   dependencies:
@@ -2454,7 +2454,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-fetch-get@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\01-fetch-get":
+"01-fetch-get@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\01-fetch-get":
   version "0.1.0"
   resolved "file:13-fetch-data/01-fetch-get"
   dependencies:
@@ -2467,7 +2467,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-first-react-app@file:C:\\Users\\kents\\Desktop\\source_code\\01-get-started\\01-first-react-app":
+"01-first-react-app@file:C:\\Users\\kents\\Desktop\\React_source_code\\01-get-started\\01-first-react-app":
   version "0.1.0"
   resolved "file:01-get-started/01-first-react-app"
   dependencies:
@@ -2479,7 +2479,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.4"
 
-"01-fragment@file:C:\\Users\\kents\\Desktop\\source_code\\07-advanced-jsx\\01-fragment":
+"01-fragment@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\01-fragment":
   version "0.1.0"
   resolved "file:07-advanced-jsx/01-fragment"
   dependencies:
@@ -2491,7 +2491,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-get-dom-instance@file:C:\\Users\\kents\\Desktop\\source_code\\14-react-dom\\01-get-dom-instance":
+"01-get-dom-instance@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\01-get-dom-instance":
   version "0.1.0"
   resolved "file:14-react-dom/01-get-dom-instance"
   dependencies:
@@ -2503,7 +2503,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-handle-component-errors@file:C:\\Users\\kents\\Desktop\\source_code\\11-advanced-components\\01-handle-component-errors":
+"01-handle-component-errors@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\01-handle-component-errors":
   version "0.1.0"
   resolved "file:11-advanced-components/01-handle-component-errors"
   dependencies:
@@ -2515,7 +2515,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-handle-user-input@file:C:\\Users\\kents\\Desktop\\source_code\\05-react-form-basics\\01-handle-user-input":
+"01-handle-user-input@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\01-handle-user-input":
   version "0.1.0"
   resolved "file:05-react-form-basics/01-handle-user-input"
   dependencies:
@@ -2527,7 +2527,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-how-to-define-a-custom-hook@file:C:\\Users\\kents\\Desktop\\source_code\\12-react-custom-hooks\\01-how-to-define-a-custom-hook":
+"01-how-to-define-a-custom-hook@file:C:\\Users\\kents\\Desktop\\React_source_code\\12-react-custom-hooks\\01-how-to-define-a-custom-hook":
   version "0.1.0"
   resolved "file:12-react-custom-hooks/01-how-to-define-a-custom-hook"
   dependencies:
@@ -2539,7 +2539,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-install-react-router@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\01-install-react-router":
+"01-install-react-router@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\01-install-react-router":
   version "0.1.0"
   resolved "file:20-react-router/01-install-react-router"
   dependencies:
@@ -2554,7 +2554,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-install-redux-redux-toolkit@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\01-install-redux-redux-toolkit":
+"01-install-redux-redux-toolkit@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\01-install-redux-redux-toolkit":
   version "0.1.0"
   resolved "file:22-redux/01-install-redux-redux-toolkit"
   dependencies:
@@ -2569,7 +2569,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-lifting-state-up@file:C:\\Users\\kents\\Desktop\\source_code\\09-advanced-state\\01-lifting-state-up":
+"01-lifting-state-up@file:C:\\Users\\kents\\Desktop\\React_source_code\\09-advanced-state\\01-lifting-state-up":
   version "0.1.0"
   resolved "file:09-advanced-state/01-lifting-state-up"
   dependencies:
@@ -2581,7 +2581,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-passing-props-deeply@file:C:\\Users\\kents\\Desktop\\source_code\\21-react-context-api\\01-passing-props-deeply":
+"01-passing-props-deeply@file:C:\\Users\\kents\\Desktop\\React_source_code\\21-react-context-api\\01-passing-props-deeply":
   version "0.1.0"
   resolved "file:21-react-context-api/01-passing-props-deeply"
   dependencies:
@@ -2593,7 +2593,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-props-data-flow@file:C:\\Users\\kents\\Desktop\\source_code\\08-advanced-props\\01-props-data-flow":
+"01-props-data-flow@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\01-props-data-flow":
   version "0.1.0"
   resolved "file:08-advanced-props/01-props-data-flow"
   dependencies:
@@ -2605,7 +2605,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-react-dev-tools-component@file:C:\\Users\\kents\\Desktop\\source_code\\15-react-debug\\01-react-dev-tools-component":
+"01-react-dev-tools-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\15-react-debug\\01-react-dev-tools-component":
   version "0.1.0"
   resolved "file:15-react-debug/01-react-dev-tools-component"
   dependencies:
@@ -2619,7 +2619,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-usememo-remember-values@file:C:\\Users\\kents\\Desktop\\source_code\\16-react-performance-optimization\\01-usememo-remember-values":
+"01-usememo-remember-values@file:C:\\Users\\kents\\Desktop\\React_source_code\\16-react-performance-optimization\\01-usememo-remember-values":
   version "0.1.0"
   resolved "file:16-react-performance-optimization/01-usememo-remember-values"
   dependencies:
@@ -2631,7 +2631,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-what-is-a-component@file:C:\\Users\\kents\\Desktop\\source_code\\03-react-component-basics\\01-what-is-a-component":
+"01-what-is-a-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\01-what-is-a-component":
   version "0.1.0"
   resolved "file:03-react-component-basics/01-what-is-a-component"
   dependencies:
@@ -2643,7 +2643,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-what-is-state@file:C:\\Users\\kents\\Desktop\\source_code\\04-react-state-basics\\01-what-is-state":
+"01-what-is-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\01-what-is-state":
   version "0.1.0"
   resolved "file:04-react-state-basics/01-what-is-state"
   dependencies:
@@ -2655,7 +2655,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-writing-page-using-jsx@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\01-writing-page-using-jsx":
+"01-writing-page-using-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\01-writing-page-using-jsx":
   version "0.1.0"
   resolved "file:02-react-basics/01-writing-page-using-jsx"
   dependencies:
@@ -2667,7 +2667,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"01-wrong-example-to-use-effects@file:C:\\Users\\kents\\Desktop\\source_code\\06-react-side-effects\\01-wrong-example-to-use-effects":
+"01-wrong-example-to-use-effects@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\01-wrong-example-to-use-effects":
   version "0.1.0"
   resolved "file:06-react-side-effects/01-wrong-example-to-use-effects"
   dependencies:
@@ -2679,7 +2679,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-add-styles-to-html@file:C:\\Users\\kents\\Desktop\\source_code\\18-styled-components\\02-add-styles-to-html":
+"02-add-styles-to-html@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\02-add-styles-to-html":
   version "0.1.0"
   resolved "file:18-styled-components/02-add-styles-to-html"
   dependencies:
@@ -2692,7 +2692,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"02-async-components-suspense@file:C:\\Users\\kents\\Desktop\\source_code\\11-advanced-components\\02-async-components-suspense":
+"02-async-components-suspense@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\02-async-components-suspense":
   version "0.1.0"
   resolved "file:11-advanced-components/02-async-components-suspense"
   dependencies:
@@ -2704,7 +2704,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-before-global-state@file:C:\\Users\\kents\\Desktop\\source_code\\21-react-context-api\\03-global-state":
+"02-before-global-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\21-react-context-api\\03-global-state":
   version "0.1.0"
   resolved "file:21-react-context-api/03-global-state"
   dependencies:
@@ -2716,7 +2716,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-child-to-parent-communication@file:C:\\Users\\kents\\Desktop\\source_code\\08-advanced-props\\02-child-to-parent-communication":
+"02-child-to-parent-communication@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\02-child-to-parent-communication":
   version "0.1.0"
   resolved "file:08-advanced-props/02-child-to-parent-communication"
   dependencies:
@@ -2728,7 +2728,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-config-react-router@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\02-config-react-router":
+"02-config-react-router@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\02-config-react-router":
   version "0.1.0"
   resolved "file:20-react-router/02-config-react-router"
   dependencies:
@@ -2743,7 +2743,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-config-store@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\02-config-store":
+"02-config-store@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\02-config-store":
   version "0.1.0"
   resolved "file:22-redux/02-config-store"
   dependencies:
@@ -2758,7 +2758,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-css-keyframes@file:C:\\Users\\kents\\Desktop\\source_code\\19-react-animations\\02-css-keyframes":
+"02-css-keyframes@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\02-css-keyframes":
   version "0.1.0"
   resolved "file:19-react-animations/02-css-keyframes"
   dependencies:
@@ -2771,7 +2771,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"02-define-a-component@file:C:\\Users\\kents\\Desktop\\source_code\\03-react-component-basics\\02-define-a-component":
+"02-define-a-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\02-define-a-component":
   version "0.1.0"
   resolved "file:03-react-component-basics/02-define-a-component"
   dependencies:
@@ -2783,7 +2783,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-define-state@file:C:\\Users\\kents\\Desktop\\source_code\\04-react-state-basics\\02-define-state":
+"02-define-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\02-define-state":
   version "0.1.0"
   resolved "file:04-react-state-basics/02-define-state"
   dependencies:
@@ -2795,7 +2795,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-difference-between-html-and-jsx@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\02-difference-between-html-and-jsx":
+"02-difference-between-html-and-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\02-difference-between-html-and-jsx":
   version "0.1.0"
   resolved "file:02-react-basics/02-difference-between-html-and-jsx"
   dependencies:
@@ -2807,7 +2807,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-form-control-handling@file:C:\\Users\\kents\\Desktop\\source_code\\05-react-form-basics\\02-form-control-handling":
+"02-form-control-handling@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\02-form-control-handling":
   version "0.1.0"
   resolved "file:05-react-form-basics/02-form-control-handling"
   dependencies:
@@ -2819,7 +2819,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-handle-dom-in-useeffect@file:C:\\Users\\kents\\Desktop\\source_code\\14-react-dom\\02-handle-dom-in-useeffect":
+"02-handle-dom-in-useeffect@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\02-handle-dom-in-useeffect":
   version "0.1.0"
   resolved "file:14-react-dom/02-handle-dom-in-useeffect"
   dependencies:
@@ -2831,7 +2831,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-loading-state@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\02-loading-state":
+"02-loading-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\02-loading-state":
   version "0.1.0"
   resolved "file:13-fetch-data/02-loading-state"
   dependencies:
@@ -2844,7 +2844,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-memo-remember-components@file:C:\\Users\\kents\\Desktop\\source_code\\16-react-performance-optimization\\02-memo-remember-components":
+"02-memo-remember-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\16-react-performance-optimization\\02-memo-remember-components":
   version "0.1.0"
   resolved "file:16-react-performance-optimization/02-memo-remember-components"
   dependencies:
@@ -2856,7 +2856,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-organize-context-code@file:C:\\Users\\kents\\Desktop\\source_code\\21-react-context-api\\02-organize-context-code":
+"02-organize-context-code@file:C:\\Users\\kents\\Desktop\\React_source_code\\21-react-context-api\\02-organize-context-code":
   version "0.1.0"
   resolved "file:21-react-context-api/02-organize-context-code"
   dependencies:
@@ -2868,7 +2868,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-pass-args-to-hooks@file:C:\\Users\\kents\\Desktop\\source_code\\12-react-custom-hooks\\02-pass-args-to-hooks":
+"02-pass-args-to-hooks@file:C:\\Users\\kents\\Desktop\\React_source_code\\12-react-custom-hooks\\02-pass-args-to-hooks":
   version "0.1.0"
   resolved "file:12-react-custom-hooks/02-pass-args-to-hooks"
   dependencies:
@@ -2880,7 +2880,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-react-build@file:C:\\Users\\kents\\Desktop\\source_code\\15-react-debug\\02-react-build":
+"02-react-build@file:C:\\Users\\kents\\Desktop\\React_source_code\\15-react-debug\\02-react-build":
   version "0.1.0"
   resolved "file:15-react-debug/02-react-build"
   dependencies:
@@ -2894,7 +2894,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-save-jsx-to-variables@file:C:\\Users\\kents\\Desktop\\source_code\\07-advanced-jsx\\02-save-jsx-to-variables":
+"02-save-jsx-to-variables@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\02-save-jsx-to-variables":
   version "0.1.0"
   resolved "file:07-advanced-jsx/02-save-jsx-to-variables"
   dependencies:
@@ -2906,7 +2906,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-state-updating-is-async@file:C:\\Users\\kents\\Desktop\\source_code\\09-advanced-state\\02-state-updating-is-async":
+"02-state-updating-is-async@file:C:\\Users\\kents\\Desktop\\React_source_code\\09-advanced-state\\02-state-updating-is-async":
   version "0.1.0"
   resolved "file:09-advanced-state/02-state-updating-is-async"
   dependencies:
@@ -2918,7 +2918,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-use-use-effects-to-execute-side-effects@file:C:\\Users\\kents\\Desktop\\source_code\\06-react-side-effects\\02-use-useEffect-to-execute-side-effects":
+"02-use-use-effects-to-execute-side-effects@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\02-use-useEffect-to-execute-side-effects":
   version "0.1.0"
   resolved "file:06-react-side-effects/02-use-useEffect-to-execute-side-effects"
   dependencies:
@@ -2930,7 +2930,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"02-use-usecallback-to-avoid-rerun@file:C:\\Users\\kents\\Desktop\\source_code\\10-advanced-effects\\02-use-usecallback-to-avoid-rerun":
+"02-use-usecallback-to-avoid-rerun@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\02-use-usecallback-to-avoid-rerun":
   version "0.1.0"
   resolved "file:10-advanced-effects/02-use-usecallback-to-avoid-rerun"
   dependencies:
@@ -2942,7 +2942,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-add-url-query-params@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\03-add-url-query-params":
+"03-add-url-query-params@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\03-add-url-query-params":
   version "0.1.0"
   resolved "file:13-fetch-data/03-add-url-query-params"
   dependencies:
@@ -2955,7 +2955,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-config-index-route@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\03-config-index-route":
+"03-config-index-route@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\03-config-index-route":
   version "0.1.0"
   resolved "file:20-react-router/03-config-index-route"
   dependencies:
@@ -2970,7 +2970,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-create-slice@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\03-create-slice":
+"03-create-slice@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\03-create-slice":
   version "0.1.0"
   resolved "file:22-redux/03-create-slice"
   dependencies:
@@ -2985,7 +2985,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-forward-ref@file:C:\\Users\\kents\\Desktop\\source_code\\14-react-dom\\03-forward-ref":
+"03-forward-ref@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\03-forward-ref":
   version "0.1.0"
   resolved "file:14-react-dom/03-forward-ref"
   dependencies:
@@ -2997,7 +2997,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-import-a-component@file:C:\\Users\\kents\\Desktop\\source_code\\03-react-component-basics\\03-import-a-component":
+"03-import-a-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\03-import-a-component":
   version "0.1.0"
   resolved "file:03-react-component-basics/03-import-a-component"
   dependencies:
@@ -3009,7 +3009,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-js-web-animation-api@file:C:\\Users\\kents\\Desktop\\source_code\\19-react-animations\\03-js-web-animation-api":
+"03-js-web-animation-api@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\03-js-web-animation-api":
   version "0.1.0"
   resolved "file:19-react-animations/03-js-web-animation-api"
   dependencies:
@@ -3022,7 +3022,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"03-load-svgs@file:C:\\Users\\kents\\Desktop\\source_code\\11-advanced-components\\03-load-svgs":
+"03-load-svgs@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\03-load-svgs":
   version "0.1.0"
   resolved "file:11-advanced-components/03-load-svgs"
   dependencies:
@@ -3034,7 +3034,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-multiple-state-management@file:C:\\Users\\kents\\Desktop\\source_code\\05-react-form-basics\\03-multiple-state-management":
+"03-multiple-state-management@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\03-multiple-state-management":
   version "0.1.0"
   resolved "file:05-react-form-basics/03-multiple-state-management"
   dependencies:
@@ -3046,7 +3046,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-new-way-of-conditional-rendering@file:C:\\Users\\kents\\Desktop\\source_code\\07-advanced-jsx\\03-new-way-of-conditional-rendering":
+"03-new-way-of-conditional-rendering@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\03-new-way-of-conditional-rendering":
   version "0.1.0"
   resolved "file:07-advanced-jsx/03-new-way-of-conditional-rendering"
   dependencies:
@@ -3058,7 +3058,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-props-types@file:C:\\Users\\kents\\Desktop\\source_code\\08-advanced-props\\03-props-types":
+"03-props-types@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\03-props-types":
   version "0.1.0"
   resolved "file:08-advanced-props/03-props-types"
   dependencies:
@@ -3070,7 +3070,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-put-fun-dep-outside@file:C:\\Users\\kents\\Desktop\\source_code\\10-advanced-effects\\03-put-fun-dep-outside":
+"03-put-fun-dep-outside@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\03-put-fun-dep-outside":
   version "0.1.0"
   resolved "file:10-advanced-effects/03-put-fun-dep-outside"
   dependencies:
@@ -3082,7 +3082,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-reuse-hooks-in-different-components@file:C:\\Users\\kents\\Desktop\\source_code\\12-react-custom-hooks\\03-reuse-hooks-in-different-components":
+"03-reuse-hooks-in-different-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\12-react-custom-hooks\\03-reuse-hooks-in-different-components":
   version "0.1.0"
   resolved "file:12-react-custom-hooks/03-reuse-hooks-in-different-components"
   dependencies:
@@ -3094,7 +3094,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-update-state@file:C:\\Users\\kents\\Desktop\\source_code\\04-react-state-basics\\03-update-state":
+"03-update-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\03-update-state":
   version "0.1.0"
   resolved "file:04-react-state-basics/03-update-state"
   dependencies:
@@ -3106,7 +3106,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-use-callback-to-remember-funcs@file:C:\\Users\\kents\\Desktop\\source_code\\16-react-performance-optimization\\03-use-callback-to-remember-funcs":
+"03-use-callback-to-remember-funcs@file:C:\\Users\\kents\\Desktop\\React_source_code\\16-react-performance-optimization\\03-use-callback-to-remember-funcs":
   version "0.1.0"
   resolved "file:16-react-performance-optimization/03-use-callback-to-remember-funcs"
   dependencies:
@@ -3118,7 +3118,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-use-js-expressions-in-jsx@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\03-use-js-expressions-in-jsx":
+"03-use-js-expressions-in-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\03-use-js-expressions-in-jsx":
   version "0.1.0"
   resolved "file:02-react-basics/03-use-js-expressions-in-jsx"
   dependencies:
@@ -3130,7 +3130,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-use-previous-state@file:C:\\Users\\kents\\Desktop\\source_code\\09-advanced-state\\03-use-previous-state":
+"03-use-previous-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\09-advanced-state\\03-use-previous-state":
   version "0.1.0"
   resolved "file:09-advanced-state/03-use-previous-state"
   dependencies:
@@ -3142,7 +3142,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"03-ways-to-manage-style-files@file:C:\\Users\\kents\\Desktop\\source_code\\18-styled-components\\03-ways-to-manage-style-files":
+"03-ways-to-manage-style-files@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\03-ways-to-manage-style-files":
   version "0.1.0"
   resolved "file:18-styled-components/03-ways-to-manage-style-files"
   dependencies:
@@ -3155,7 +3155,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"03-when-use-effect-runs@file:C:\\Users\\kents\\Desktop\\source_code\\06-react-side-effects\\03-when-use-effect-runs":
+"03-when-use-effect-runs@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\03-when-use-effect-runs":
   version "0.1.0"
   resolved "file:06-react-side-effects/03-when-use-effect-runs"
   dependencies:
@@ -3167,7 +3167,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-clean-effects@file:C:\\Users\\kents\\Desktop\\source_code\\06-react-side-effects\\04-clean-effects":
+"04-clean-effects@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\04-clean-effects":
   version "0.1.0"
   resolved "file:06-react-side-effects/04-clean-effects"
   dependencies:
@@ -3179,7 +3179,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-config-child-routes@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\04-config-child-routes":
+"04-config-child-routes@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\04-config-child-routes":
   version "0.1.0"
   resolved "file:20-react-router/04-config-child-routes"
   dependencies:
@@ -3194,7 +3194,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-convert-effect-to-events@file:C:\\Users\\kents\\Desktop\\source_code\\10-advanced-effects\\04-convert-effect-to-events":
+"04-convert-effect-to-events@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\04-convert-effect-to-events":
   version "0.1.0"
   resolved "file:10-advanced-effects/04-convert-effect-to-events"
   dependencies:
@@ -3206,7 +3206,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-define-props@file:C:\\Users\\kents\\Desktop\\source_code\\03-react-component-basics\\04-define-props":
+"04-define-props@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\04-define-props":
   version "0.1.0"
   resolved "file:03-react-component-basics/04-define-props"
   dependencies:
@@ -3218,7 +3218,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-display-list-data@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\04-display-list-data":
+"04-display-list-data@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\04-display-list-data":
   version "0.1.0"
   resolved "file:02-react-basics/04-display-list-data"
   dependencies:
@@ -3230,7 +3230,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-export-sub-components@file:C:\\Users\\kents\\Desktop\\source_code\\07-advanced-jsx\\04-export-sub-components":
+"04-export-sub-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\04-export-sub-components":
   version "0.1.0"
   resolved "file:07-advanced-jsx/04-export-sub-components"
   dependencies:
@@ -3242,7 +3242,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-import-alias@file:C:\\Users\\kents\\Desktop\\source_code\\11-advanced-components\\04-import-alias":
+"04-import-alias@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\04-import-alias":
   version "0.1.0"
   resolved "file:11-advanced-components/04-import-alias"
   dependencies:
@@ -3254,7 +3254,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-overriding-styles@file:C:\\Users\\kents\\Desktop\\source_code\\18-styled-components\\04-overriding-styles":
+"04-overriding-styles@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\04-overriding-styles":
   version "0.1.0"
   resolved "file:18-styled-components/04-overriding-styles"
   dependencies:
@@ -3267,7 +3267,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"04-post-data-to-server@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\04-post-data-to-server":
+"04-post-data-to-server@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\04-post-data-to-server":
   version "0.1.0"
   resolved "file:13-fetch-data/04-post-data-to-server"
   dependencies:
@@ -3280,7 +3280,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-render-props@file:C:\\Users\\kents\\Desktop\\source_code\\08-advanced-props\\04-render-props":
+"04-render-props@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\04-render-props":
   version "0.1.0"
   resolved "file:08-advanced-props/04-render-props"
   dependencies:
@@ -3292,7 +3292,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-rtg-csstransition@file:C:\\Users\\kents\\Desktop\\source_code\\19-react-animations\\04-rtg-csstransition":
+"04-rtg-csstransition@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\04-rtg-csstransition":
   version "0.1.0"
   resolved "file:19-react-animations/04-rtg-csstransition"
   dependencies:
@@ -3306,7 +3306,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"04-update-state@file:C:\\Users\\kents\\Desktop\\source_code\\04-react-state-basics\\04-update-array-state":
+"04-update-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\04-update-array-state":
   version "0.1.0"
   resolved "file:04-react-state-basics/04-update-array-state"
   dependencies:
@@ -3318,7 +3318,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-use-callback-state-as-deps@file:C:\\Users\\kents\\Desktop\\source_code\\16-react-performance-optimization\\04-use-callback-state-as-deps":
+"04-use-callback-state-as-deps@file:C:\\Users\\kents\\Desktop\\React_source_code\\16-react-performance-optimization\\04-use-callback-state-as-deps":
   version "0.1.0"
   resolved "file:16-react-performance-optimization/04-use-callback-state-as-deps"
   dependencies:
@@ -3330,7 +3330,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-use-imerative-handle@file:C:\\Users\\kents\\Desktop\\source_code\\14-react-dom\\04-use-imerative-handle":
+"04-use-imerative-handle@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\04-use-imerative-handle":
   version "0.1.0"
   resolved "file:14-react-dom/04-use-imerative-handle"
   dependencies:
@@ -3342,7 +3342,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-use-loop-to-render-multiple-checkboxes-and-radios@file:C:\\Users\\kents\\Desktop\\source_code\\05-react-form-basics\\04-use-loop-to-render-multiple-checkboxes-and-radios":
+"04-use-loop-to-render-multiple-checkboxes-and-radios@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\04-use-loop-to-render-multiple-checkboxes-and-radios":
   version "0.1.0"
   resolved "file:05-react-form-basics/04-use-loop-to-render-multiple-checkboxes-and-radios"
   dependencies:
@@ -3354,7 +3354,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-use-other-hooks-return-val-as-args@file:C:\\Users\\kents\\Desktop\\source_code\\12-react-custom-hooks\\04-use-other-hooks-return-val-as-args":
+"04-use-other-hooks-return-val-as-args@file:C:\\Users\\kents\\Desktop\\React_source_code\\12-react-custom-hooks\\04-use-other-hooks-return-val-as-args":
   version "0.1.0"
   resolved "file:12-react-custom-hooks/04-use-other-hooks-return-val-as-args"
   dependencies:
@@ -3366,7 +3366,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-use-reducer@file:C:\\Users\\kents\\Desktop\\source_code\\09-advanced-state\\04-use-reducer":
+"04-use-reducer@file:C:\\Users\\kents\\Desktop\\React_source_code\\09-advanced-state\\04-use-reducer":
   version "0.1.0"
   resolved "file:09-advanced-state/04-use-reducer"
   dependencies:
@@ -3378,7 +3378,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-use-selector@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\04-use-selector":
+"04-use-selector@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\04-use-selector":
   version "0.1.0"
   resolved "file:22-redux/04-use-selector"
   dependencies:
@@ -3393,7 +3393,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-avoid-rerender-between-fetches@file:C:\\Users\\kents\\Desktop\\source_code\\10-advanced-effects\\05-avoid-rerender-between-fetches":
+"05-avoid-rerender-between-fetches@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\05-avoid-rerender-between-fetches":
   version "0.1.0"
   resolved "file:10-advanced-effects/05-avoid-rerender-between-fetches"
   dependencies:
@@ -3405,7 +3405,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-conditional-rendering@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\05-conditional-rendering":
+"05-conditional-rendering@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\05-conditional-rendering":
   version "0.1.0"
   resolved "file:02-react-basics/05-conditional-rendering"
   dependencies:
@@ -3417,7 +3417,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-define-reducer@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\05-define-reducer":
+"05-define-reducer@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\05-define-reducer":
   version "0.1.0"
   resolved "file:22-redux/05-define-reducer"
   dependencies:
@@ -3432,7 +3432,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-execute-async-functions@file:C:\\Users\\kents\\Desktop\\source_code\\06-react-side-effects\\05-execute-async-functions":
+"05-execute-async-functions@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\05-execute-async-functions":
   version "0.1.0"
   resolved "file:06-react-side-effects/05-execute-async-functions"
   dependencies:
@@ -3444,7 +3444,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-handle-form-submit@file:C:\\Users\\kents\\Desktop\\source_code\\05-react-form-basics\\05-handle-form-submit":
+"05-handle-form-submit@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\05-handle-form-submit":
   version "0.1.0"
   resolved "file:05-react-form-basics/05-handle-form-submit"
   dependencies:
@@ -3456,7 +3456,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-link-client-side-routing@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\05-link-client-side-routing":
+"05-link-client-side-routing@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\05-link-client-side-routing":
   version "0.1.0"
   resolved "file:20-react-router/05-link-client-side-routing"
   dependencies:
@@ -3471,7 +3471,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-pass-multiple-props-using-spread-op@file:C:\\Users\\kents\\Desktop\\source_code\\07-advanced-jsx\\05-pass-multiple-props-using-spread-op":
+"05-pass-multiple-props-using-spread-op@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\05-pass-multiple-props-using-spread-op":
   version "0.1.0"
   resolved "file:07-advanced-jsx/05-pass-multiple-props-using-spread-op"
   dependencies:
@@ -3483,7 +3483,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-props-default-values@file:C:\\Users\\kents\\Desktop\\source_code\\03-react-component-basics\\05-props-default-values":
+"05-props-default-values@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\05-props-default-values":
   version "0.1.0"
   resolved "file:03-react-component-basics/05-props-default-values"
   dependencies:
@@ -3495,7 +3495,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-props-type-validation@file:C:\\Users\\kents\\Desktop\\source_code\\08-advanced-props\\05-props-type-validation":
+"05-props-type-validation@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\05-props-type-validation":
   version "0.1.0"
   resolved "file:08-advanced-props/05-props-type-validation"
   dependencies:
@@ -3507,7 +3507,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-rtg-switchtransition@file:C:\\Users\\kents\\Desktop\\source_code\\19-react-animations\\05-rtg-switchtransition":
+"05-rtg-switchtransition@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\05-rtg-switchtransition":
   version "0.1.0"
   resolved "file:19-react-animations/05-rtg-switchtransition"
   dependencies:
@@ -3521,7 +3521,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"05-set-http-headers@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\05-set-http-headers":
+"05-set-http-headers@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\05-set-http-headers":
   version "0.1.0"
   resolved "file:13-fetch-data/05-set-http-headers"
   dependencies:
@@ -3534,7 +3534,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-style-normal-react-components@file:C:\\Users\\kents\\Desktop\\source_code\\18-styled-components\\05-style-normal-react-components":
+"05-style-normal-react-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\05-style-normal-react-components":
   version "0.1.0"
   resolved "file:18-styled-components/05-style-normal-react-components"
   dependencies:
@@ -3547,7 +3547,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"05-update-object-state@file:C:\\Users\\kents\\Desktop\\source_code\\04-react-state-basics\\05-update-object-state":
+"05-update-object-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\05-update-object-state":
   version "0.1.0"
   resolved "file:04-react-state-basics/05-update-object-state"
   dependencies:
@@ -3559,7 +3559,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-use-children-to-reduce-nesting@file:C:\\Users\\kents\\Desktop\\source_code\\11-advanced-components\\05-use-children-to-reduce-nesting":
+"05-use-children-to-reduce-nesting@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\05-use-children-to-reduce-nesting":
   version "0.1.0"
   resolved "file:11-advanced-components/05-use-children-to-reduce-nesting"
   dependencies:
@@ -3571,7 +3571,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"05-use-id@file:C:\\Users\\kents\\Desktop\\source_code\\14-react-dom\\05-use-id":
+"05-use-id@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\05-use-id":
   version "0.1.0"
   resolved "file:14-react-dom/05-use-id"
   dependencies:
@@ -3583,7 +3583,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"06-access-props-in-styled-components@file:C:\\Users\\kents\\Desktop\\source_code\\18-styled-components\\06-access-props-in-styled-components":
+"06-access-props-in-styled-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\06-access-props-in-styled-components":
   version "0.1.0"
   resolved "file:18-styled-components/06-access-props-in-styled-components"
   dependencies:
@@ -3596,7 +3596,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"06-children-as-function-to-pass-data-to-parent@file:C:\\Users\\kents\\Desktop\\source_code\\08-advanced-props\\06-children-as-function-to-pass-data-to-parent":
+"06-children-as-function-to-pass-data-to-parent@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\06-children-as-function-to-pass-data-to-parent":
   version "0.1.0"
   resolved "file:08-advanced-props/06-children-as-function-to-pass-data-to-parent"
   dependencies:
@@ -3608,7 +3608,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"06-controlled-components@file:C:\\Users\\kents\\Desktop\\source_code\\11-advanced-components\\06-controlled-components":
+"06-controlled-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\06-controlled-components":
   version "0.1.0"
   resolved "file:11-advanced-components/06-controlled-components"
   dependencies:
@@ -3620,7 +3620,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"06-do-not-put-effects-in-blocks@file:C:\\Users\\kents\\Desktop\\source_code\\10-advanced-effects\\06-do-not-put-effects-in-blocks":
+"06-do-not-put-effects-in-blocks@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\06-do-not-put-effects-in-blocks":
   version "0.1.0"
   resolved "file:10-advanced-effects/06-do-not-put-effects-in-blocks"
   dependencies:
@@ -3632,7 +3632,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"06-handling-request-errors@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\06-handling-request-errors":
+"06-handling-request-errors@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\06-handling-request-errors":
   version "0.1.0"
   resolved "file:13-fetch-data/06-handling-request-errors"
   dependencies:
@@ -3645,7 +3645,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"06-jsx-falsy-values@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\06-jsx-falsy-values":
+"06-jsx-falsy-values@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\06-jsx-falsy-values":
   version "0.1.0"
   resolved "file:02-react-basics/06-jsx-falsy-values"
   dependencies:
@@ -3657,7 +3657,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"06-passing-children-to-components@file:C:\\Users\\kents\\Desktop\\source_code\\03-react-component-basics\\06-passing-children-to-components":
+"06-passing-children-to-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\06-passing-children-to-components":
   version "0.1.0"
   resolved "file:03-react-component-basics/06-passing-children-to-components"
   dependencies:
@@ -3669,7 +3669,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"06-reset-form-state@file:C:\\Users\\kents\\Desktop\\source_code\\05-react-form-basics\\06-reset-form-state":
+"06-reset-form-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\06-reset-form-state":
   version "0.1.0"
   resolved "file:05-react-form-basics/06-reset-form-state"
   dependencies:
@@ -3681,7 +3681,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"06-rgt-transitiongroup@file:C:\\Users\\kents\\Desktop\\source_code\\19-react-animations\\06-rgt-transitiongroup":
+"06-rgt-transitiongroup@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\06-rgt-transitiongroup":
   version "0.1.0"
   resolved "file:19-react-animations/06-rgt-transitiongroup"
   dependencies:
@@ -3695,7 +3695,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"06-use-loader-to-fetch-data@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\06-use-loader-to-fetch-data":
+"06-use-loader-to-fetch-data@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\06-use-loader-to-fetch-data":
   version "0.1.0"
   resolved "file:20-react-router/06-use-loader-to-fetch-data"
   dependencies:
@@ -3710,7 +3710,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"06-word-slice@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\06-accessing-other-state-in-selectors":
+"06-word-slice@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\06-accessing-other-state-in-selectors":
   version "0.1.0"
   resolved "file:22-redux/06-accessing-other-state-in-selectors"
   dependencies:
@@ -3725,7 +3725,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"07-access-loader-data-in-components@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\07-access-loader-data-in-components":
+"07-access-loader-data-in-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\07-access-loader-data-in-components":
   version "0.1.0"
   resolved "file:20-react-router/07-access-loader-data-in-components"
   dependencies:
@@ -3740,7 +3740,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"07-config-proxy@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\07-config-proxy":
+"07-config-proxy@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\07-config-proxy":
   version "0.1.0"
   resolved "file:13-fetch-data/07-config-proxy"
   dependencies:
@@ -3754,7 +3754,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"07-form-validation@file:C:\\Users\\kents\\Desktop\\source_code\\05-react-form-basics\\07-form-validation":
+"07-form-validation@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\07-form-validation":
   version "0.1.0"
   resolved "file:05-react-form-basics/07-form-validation"
   dependencies:
@@ -3766,7 +3766,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"07-integrate-with-animate-css@file:C:\\Users\\kents\\Desktop\\source_code\\19-react-animations\\07-integrate-with-animate-css":
+"07-integrate-with-animate-css@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\07-integrate-with-animate-css":
   version "0.1.0"
   resolved "file:19-react-animations/07-integrate-with-animate-css"
   dependencies:
@@ -3781,7 +3781,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"07-nesting-styles@file:C:\\Users\\kents\\Desktop\\source_code\\18-styled-components\\07-nesting-styles":
+"07-nesting-styles@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\07-nesting-styles":
   version "0.1.0"
   resolved "file:18-styled-components/07-nesting-styles"
   dependencies:
@@ -3794,7 +3794,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"07-passing-event-handlers-to-child-component@file:C:\\Users\\kents\\Desktop\\source_code\\03-react-component-basics\\07-passing-event-handlers-to-child-component":
+"07-passing-event-handlers-to-child-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\07-passing-event-handlers-to-child-component":
   version "0.1.0"
   resolved "file:03-react-component-basics/07-passing-event-handlers-to-child-component"
   dependencies:
@@ -3806,7 +3806,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"07-react-props-pass-through@file:C:\\Users\\kents\\Desktop\\source_code\\08-advanced-props\\07-react-props-pass-through":
+"07-react-props-pass-through@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\07-react-props-pass-through":
   version "0.1.0"
   resolved "file:08-advanced-props/07-react-props-pass-through"
   dependencies:
@@ -3818,7 +3818,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"07-uncontrolled-components@file:C:\\Users\\kents\\Desktop\\source_code\\11-advanced-components\\07-uncontrolled-components":
+"07-uncontrolled-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\07-uncontrolled-components":
   version "0.1.0"
   resolved "file:11-advanced-components/07-uncontrolled-components"
   dependencies:
@@ -3830,7 +3830,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"07-update-array-state@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\07-update-array-state":
+"07-update-array-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\07-update-array-state":
   version "0.1.0"
   resolved "file:22-redux/07-update-array-state"
   dependencies:
@@ -3845,7 +3845,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"07-use-comments-in-jsx@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\07-use-comments-in-jsx":
+"07-use-comments-in-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\07-use-comments-in-jsx":
   version "0.1.0"
   resolved "file:02-react-basics/07-use-comments-in-jsx"
   dependencies:
@@ -3857,7 +3857,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"08-cancel-request@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\08-cancel-request":
+"08-cancel-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\08-cancel-request":
   version "0.1.0"
   resolved "file:13-fetch-data/08-cancel-request"
   dependencies:
@@ -3871,7 +3871,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"08-classnames-passing-and-merging@file:C:\\Users\\kents\\Desktop\\source_code\\08-advanced-props\\08-classnames-passing-and-merging":
+"08-classnames-passing-and-merging@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\08-classnames-passing-and-merging":
   version "0.1.0"
   resolved "file:08-advanced-props/08-classnames-passing-and-merging"
   dependencies:
@@ -3883,7 +3883,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"08-get-dynamic-params@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\08-get-dynamic-params":
+"08-get-dynamic-params@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\08-get-dynamic-params":
   version "0.1.0"
   resolved "file:20-react-router/08-get-dynamic-params"
   dependencies:
@@ -3898,7 +3898,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"08-handle-events@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\08-handle-events":
+"08-handle-events@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\08-handle-events":
   version "0.1.0"
   resolved "file:02-react-basics/08-handle-events"
   dependencies:
@@ -3910,7 +3910,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"08-higher-order-components@file:C:\\Users\\kents\\Desktop\\source_code\\11-advanced-components\\08-higher-order-components":
+"08-higher-order-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\08-higher-order-components":
   version "0.1.0"
   resolved "file:11-advanced-components/08-higher-order-components"
   dependencies:
@@ -3922,7 +3922,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"08-local-form-handling@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\08-local-form-handling":
+"08-local-form-handling@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\08-local-form-handling":
   version "0.1.0"
   resolved "file:22-redux/08-local-form-handling"
   dependencies:
@@ -3937,7 +3937,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"08-passing-data-to-parent-component@file:C:\\Users\\kents\\Desktop\\source_code\\03-react-component-basics\\08-passing-data-to-parent-component":
+"08-passing-data-to-parent-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\08-passing-data-to-parent-component":
   version "0.1.0"
   resolved "file:03-react-component-basics/08-passing-data-to-parent-component"
   dependencies:
@@ -3949,7 +3949,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"08-theme@file:C:\\Users\\kents\\Desktop\\source_code\\18-styled-components\\08-theme":
+"08-theme@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\08-theme":
   version "0.1.0"
   resolved "file:18-styled-components/08-theme"
   dependencies:
@@ -3962,7 +3962,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"09-active-nav-link@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\09-active-nav-link":
+"09-active-nav-link@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\09-active-nav-link":
   version "0.1.0"
   resolved "file:20-react-router/09-active-nav-link"
   dependencies:
@@ -3977,7 +3977,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"09-add-style-classes@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\09-add-style-classes":
+"09-add-style-classes@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\09-add-style-classes":
   version "0.1.0"
   resolved "file:02-react-basics/09-add-style-classes"
   dependencies:
@@ -3989,7 +3989,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"09-as-another-element@file:C:\\Users\\kents\\Desktop\\source_code\\18-styled-components\\09-as-another-element":
+"09-as-another-element@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\09-as-another-element":
   version "0.1.0"
   resolved "file:18-styled-components/09-as-another-element"
   dependencies:
@@ -4002,7 +4002,7 @@
     styled-components "^6.1.8"
     web-vitals "^2.1.0"
 
-"09-enhance-fetch@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\09-enhance-fetch":
+"09-enhance-fetch@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\09-enhance-fetch":
   version "0.1.0"
   resolved "file:13-fetch-data/09-enhance-fetch"
   dependencies:
@@ -4016,7 +4016,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"09-global-form-handling-search@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\09-global-form-handling-search":
+"09-global-form-handling-search@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\09-global-form-handling-search":
   version "0.1.0"
   resolved "file:22-redux/09-global-form-handling-search"
   dependencies:
@@ -4031,7 +4031,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"10-add-inline-style@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\10-add-inline-style":
+"10-add-inline-style@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\10-add-inline-style":
   version "0.1.0"
   resolved "file:02-react-basics/10-add-inline-style"
   dependencies:
@@ -4043,7 +4043,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"10-form-get-request@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\10-form-routing":
+"10-form-get-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\10-form-routing":
   version "0.1.0"
   resolved "file:20-react-router/10-form-routing"
   dependencies:
@@ -4058,7 +4058,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"10-global-form-handling-sort@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\10-global-form-handling-sort":
+"10-global-form-handling-sort@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\10-global-form-handling-sort":
   version "0.1.0"
   resolved "file:22-redux/10-global-form-handling-sort"
   dependencies:
@@ -4073,7 +4073,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"10-use-axios@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\10-use-axios":
+"10-use-axios@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\10-use-axios":
   version "0.1.0"
   resolved "file:13-fetch-data/10-use-axios"
   dependencies:
@@ -4088,7 +4088,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"11-display-images@file:C:\\Users\\kents\\Desktop\\source_code\\02-react-basics\\11-display-images":
+"11-display-images@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\11-display-images":
   version "0.1.0"
   resolved "file:02-react-basics/11-display-images"
   dependencies:
@@ -4100,7 +4100,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"11-form-post@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\11-form-post":
+"11-form-post@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\11-form-post":
   version "0.1.0"
   resolved "file:20-react-router/11-form-post"
   dependencies:
@@ -4115,7 +4115,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"11-global-form-handling-select@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\11-global-form-handling-select":
+"11-global-form-handling-select@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\11-global-form-handling-select":
   version "0.1.0"
   resolved "file:22-redux/11-global-form-handling-select"
   dependencies:
@@ -4130,7 +4130,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"12-enhance-axios@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\12-enhance-axios":
+"12-enhance-axios@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\12-enhance-axios":
   version "0.1.0"
   resolved "file:13-fetch-data/12-enhance-axios"
   dependencies:
@@ -4145,7 +4145,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"12-redirect@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\12-redirect":
+"12-redirect@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\12-redirect":
   version "0.1.0"
   resolved "file:20-react-router/12-redirect"
   dependencies:
@@ -4160,7 +4160,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"12-use-selector-from-other-selector@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\12-use-selector-from-other-selector":
+"12-use-selector-from-other-selector@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\12-use-selector-from-other-selector":
   version "0.1.0"
   resolved "file:22-redux/12-use-selector-from-other-selector"
   dependencies:
@@ -4175,7 +4175,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"13-12-axios-cancel-request@file:C:\\Users\\kents\\Desktop\\source_code\\13-fetch-data\\11-axios-cancel-request":
+"13-12-axios-cancel-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\11-axios-cancel-request":
   version "0.1.0"
   resolved "file:13-fetch-data/11-axios-cancel-request"
   dependencies:
@@ -4190,7 +4190,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"13-exercise-remaining-words@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\13-exercise-remaining-words":
+"13-exercise-remaining-words@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\13-exercise-remaining-words":
   version "0.1.0"
   resolved "file:22-redux/13-exercise-remaining-words"
   dependencies:
@@ -4205,7 +4205,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"13-form-default-values@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\13-form-default-values":
+"13-form-default-values@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\13-form-default-values":
   version "0.1.0"
   resolved "file:20-react-router/13-form-default-values"
   dependencies:
@@ -4220,7 +4220,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"14-form-put@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\14-form-put":
+"14-form-put@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\14-form-put":
   version "0.1.0"
   resolved "file:20-react-router/14-form-put"
   dependencies:
@@ -4235,7 +4235,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"14-thunk-get-state@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\14-thunk-get-state":
+"14-thunk-get-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\14-thunk-get-state":
   version "0.1.0"
   resolved "file:22-redux/14-thunk-get-state"
   dependencies:
@@ -4250,7 +4250,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"15-form-delete@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\15-form-delete":
+"15-form-delete@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\15-form-delete":
   version "0.1.0"
   resolved "file:20-react-router/15-form-delete"
   dependencies:
@@ -4265,7 +4265,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"15-prepare-async-requests@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\15-prepare-async-requests":
+"15-prepare-async-requests@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\15-prepare-async-requests":
   version "0.1.0"
   resolved "file:22-redux/15-prepare-async-requests"
   dependencies:
@@ -4281,7 +4281,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"16-navigate-programmatically@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\16-navigate-programmatically":
+"16-navigate-programmatically@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\16-navigate-programmatically":
   version "0.1.0"
   resolved "file:20-react-router/16-navigate-programmatically"
   dependencies:
@@ -4296,7 +4296,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"16-thunk-get-request@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\16-thunk-get-request":
+"16-thunk-get-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\16-thunk-get-request":
   version "0.1.0"
   resolved "file:22-redux/16-thunk-get-request"
   dependencies:
@@ -4312,7 +4312,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"17-dispatch-async-thunk@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\17-dispatch-async-thunk":
+"17-dispatch-async-thunk@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\17-dispatch-async-thunk":
   version "0.1.0"
   resolved "file:22-redux/17-dispatch-async-thunk"
   dependencies:
@@ -4328,7 +4328,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"17-form-get-search@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\17-form-get-search":
+"17-form-get-search@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\17-form-get-search":
   version "0.1.0"
   resolved "file:20-react-router/17-form-get-search"
   dependencies:
@@ -4343,7 +4343,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"18-thunk-post-request@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\18-thunk-post-request":
+"18-thunk-post-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\18-thunk-post-request":
   version "0.1.0"
   resolved "file:22-redux/18-thunk-post-request"
   dependencies:
@@ -4359,7 +4359,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"18-url-form-sync@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\19-url-form-sync":
+"18-url-form-sync@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\19-url-form-sync":
   version "0.1.0"
   resolved "file:20-react-router/19-url-form-sync"
   dependencies:
@@ -4374,7 +4374,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"18-usesubmit@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\18-usesubmit":
+"18-usesubmit@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\18-usesubmit":
   version "0.1.0"
   resolved "file:20-react-router/18-usesubmit"
   dependencies:
@@ -4389,7 +4389,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"19-thunk-put-request@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\19-thunk-put-request":
+"19-thunk-put-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\19-thunk-put-request":
   version "0.1.0"
   resolved "file:22-redux/19-thunk-put-request"
   dependencies:
@@ -4405,7 +4405,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"20-form-replace-vs-push@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\20-form-replace-vs-push":
+"20-form-replace-vs-push@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\20-form-replace-vs-push":
   version "0.1.0"
   resolved "file:20-react-router/20-form-replace-vs-push"
   dependencies:
@@ -4420,7 +4420,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"20-rtk-query-fetch-data@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\20-rtk-query-fetch-data":
+"20-rtk-query-fetch-data@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\20-rtk-query-fetch-data":
   version "0.1.0"
   resolved "file:22-redux/20-rtk-query-fetch-data"
   dependencies:
@@ -4436,7 +4436,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"21-rtk-data-mutation@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\21-rtk-data-mutation":
+"21-rtk-data-mutation@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\21-rtk-data-mutation":
   version "0.1.0"
   resolved "file:22-redux/21-rtk-data-mutation"
   dependencies:
@@ -4452,7 +4452,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"21-use-fetcher-to-prevent-redirects@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\21-use-fetcher-to-prevent-redirects":
+"21-use-fetcher-to-prevent-redirects@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\21-use-fetcher-to-prevent-redirects":
   version "0.1.0"
   resolved "file:20-react-router/21-use-fetcher-to-prevent-redirects"
   dependencies:
@@ -4467,7 +4467,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"22-optimisitc-ui@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\22-optimistic-ui":
+"22-optimisitc-ui@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\22-optimistic-ui":
   version "0.1.0"
   resolved "file:20-react-router/22-optimistic-ui"
   dependencies:
@@ -4482,7 +4482,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"22-rtk-reinvalidate-data@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\22-rtk-reinvalidate-data":
+"22-rtk-reinvalidate-data@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\22-rtk-reinvalidate-data":
   version "0.1.0"
   resolved "file:22-redux/22-rtk-reinvalidate-data"
   dependencies:
@@ -4498,7 +4498,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"23-global-loading@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\23-global-loading":
+"23-global-loading@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\23-global-loading":
   version "0.1.0"
   resolved "file:20-react-router/23-global-loading"
   dependencies:
@@ -4513,7 +4513,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"23-rtk-optimistic-ui@file:C:\\Users\\kents\\Desktop\\source_code\\22-redux\\23-rtk-optimistic-ui":
+"23-rtk-optimistic-ui@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\23-rtk-optimistic-ui":
   version "0.1.0"
   resolved "file:22-redux/23-rtk-optimistic-ui"
   dependencies:
@@ -4529,7 +4529,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"24-searching-loading@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\24-searching-loading":
+"24-searching-loading@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\24-searching-loading":
   version "0.1.0"
   resolved "file:20-react-router/24-searching-loading"
   dependencies:
@@ -4544,7 +4544,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"25-error-handling@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\25-error-handling":
+"25-error-handling@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\25-error-handling":
   version "0.1.0"
   resolved "file:20-react-router/25-error-handling"
   dependencies:
@@ -4559,7 +4559,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"26-error-boundary@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\26-error-boundary":
+"26-error-boundary@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\26-error-boundary":
   version "0.1.0"
   resolved "file:20-react-router/26-error-boundary"
   dependencies:
@@ -4574,7 +4574,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"27-custom-response-error@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\27-custom-response-error":
+"27-custom-response-error@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\27-custom-response-error":
   version "0.1.0"
   resolved "file:20-react-router/27-custom-response-error"
   dependencies:
@@ -4589,7 +4589,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"28-json-utility@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\28-json-utility":
+"28-json-utility@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\28-json-utility":
   version "0.1.0"
   resolved "file:20-react-router/28-json-utility"
   dependencies:
@@ -4604,7 +4604,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"29-defer-loader@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\29-defer-loader":
+"29-defer-loader@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\29-defer-loader":
   version "0.1.0"
   resolved "file:20-react-router/29-defer-loader"
   dependencies:
@@ -4619,7 +4619,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"30-use-async-value@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\30-use-async-value":
+"30-use-async-value@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\30-use-async-value":
   version "0.1.0"
   resolved "file:20-react-router/30-use-async-value"
   dependencies:
@@ -4634,7 +4634,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"31-use-fetcher-in-await@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\31-use-fetcher-in-await":
+"31-use-fetcher-in-await@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\31-use-fetcher-in-await":
   version "0.1.0"
   resolved "file:20-react-router/31-use-fetcher-in-await"
   dependencies:
@@ -4649,7 +4649,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"32-scroll-restoration@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\32-scroll-restoration":
+"32-scroll-restoration@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\32-scroll-restoration":
   version "0.1.0"
   resolved "file:20-react-router/32-scroll-restoration"
   dependencies:
@@ -4664,7 +4664,7 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"33-config-router-using-jsx@file:C:\\Users\\kents\\Desktop\\source_code\\20-react-router\\33-config-router-using-jsx":
+"33-config-router-using-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\33-config-router-using-jsx":
   version "0.1.0"
   resolved "file:20-react-router/33-config-router-using-jsx"
   dependencies:
@@ -9902,7 +9902,7 @@ react-app-polyfill@^3.0.0:
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
 
-"react-complete-guide-code@file:C:\\Users\\kents\\Desktop\\source_code":
+"react-complete-guide-code@file:C:\\Users\\kents\\Desktop\\React_source_code":
   version "1.0.0"
   resolved "file:"
 
