@@ -1,4 +1,5 @@
 import './App.css'
+import PostListItem from './components/PostListItem'
 
 function App() {
   const microBlogs = [
@@ -35,16 +36,6 @@ function App() {
     console.log(e.target.value)
   }
 
-  // const handleClick = (item) => {
-  //   console.log(item)
-  // }
-
-  function handleClick(item) {
-    return () => {
-      console.log(item)
-    }
-  }
-
   const headerStyle = {
     fontSize: '26px',
     color: 'red',
@@ -61,22 +52,28 @@ function App() {
 
       <div>
         {microBlogs.length > 0 ? (
-          microBlogs.map((item) => (
-            <div key={item.id} className="microblogItem" onClick={handleClick(item)}>
-              <img src={item.author.avatar} alt={item.author.name} className="avatar" />
-
-              <div className="microblogContent">
-                <p className="authorName">{item.author.name}</p>
-                <p className="content">{item.content}</p>
-                <p className="date">{item.publishDate}</p>
-              </div>
-            </div>
+          microBlogs.map((blog) => (
+            <PostListItem key={blog.id} item={blog}>
+              <ChildrenSlot emit={(emitQuery) => console.log(blog.id, emitQuery)} />
+            </PostListItem>
           ))
         ) : (
           <p>暫無列表</p>
         )}
       </div>
     </main>
+  )
+}
+
+function ChildrenSlot({ emit }) {
+  const handleSubmit = () => {
+    emit('我是從子組件回傳回來的')
+  }
+
+  return (
+    <div>
+      <button onClick={handleSubmit}>submit</button>
+    </div>
   )
 }
 
