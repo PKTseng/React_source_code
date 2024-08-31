@@ -1598,16 +1598,6 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@reduxjs/toolkit@^1.9.5":
-  version "1.9.7"
-  resolved "https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-1.9.7.tgz"
-  integrity sha512-t7v8ZPxhhKgOKtU+uyJT13lu4vL7az5aFi4IdoDs/eS548edn2M8Ik9h8fxgvMjGoAUVFSt6ZC1P5cWmQ014QQ==
-  dependencies:
-    immer "^9.0.21"
-    redux "^4.2.1"
-    redux-thunk "^2.4.2"
-    reselect "^4.1.8"
-
 "@remix-run/router@1.6.2":
   version "1.6.2"
   resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.6.2.tgz"
@@ -1820,7 +1810,7 @@
     lz-string "^1.5.0"
     pretty-format "^27.0.2"
 
-"@testing-library/jest-dom@^5.14.1", "@testing-library/jest-dom@^5.17.0":
+"@testing-library/jest-dom@^5.14.1":
   version "5.17.0"
   resolved "https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-5.17.0.tgz"
   integrity sha512-ynmNeT7asXyH3aSVv4vvX4Rb+0qjOhdNHnO/3vuZNqPmhDpV/+rCSGwQ7bLcmU2cJ4dvoheIO85LQj0IbJHEtg==
@@ -1835,7 +1825,7 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react@^13.0.0", "@testing-library/react@^13.4.0":
+"@testing-library/react@^13.0.0":
   version "13.4.0"
   resolved "https://registry.npmjs.org/@testing-library/react/-/react-13.4.0.tgz"
   integrity sha512-sXOGON+WNTh3MLE9rve97ftaZukN3oNf2KjDy7YTx6hcTO2uuLHuCGynMDhFwGw/jYf4OJ2Qk0i4i79qMNNkyw==
@@ -1844,7 +1834,7 @@
     "@testing-library/dom" "^8.5.0"
     "@types/react-dom" "^18.0.0"
 
-"@testing-library/user-event@^13.2.1", "@testing-library/user-event@^13.5.0":
+"@testing-library/user-event@^13.2.1":
   version "13.5.0"
   resolved "https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.5.0.tgz"
   integrity sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg==
@@ -2416,897 +2406,220 @@
   resolved "https://registry.npmjs.org/@xtuc/long/-/long-4.2.2.tgz"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"01-add-styled-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\01-add-styled-component":
-  version "0.1.0"
-  resolved "file:18-styled-components/01-add-styled-component"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"01-css-transitions@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\01-css-transitions":
-  version "0.1.0"
-  resolved "file:19-react-animations/01-css-transitions"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"01-do-not-overlooking-dep-arrs@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\01-do-not-overlooking-dep-arrs":
-  version "0.1.0"
-  resolved "file:10-advanced-effects/01-do-not-overlooking-dep-arrs"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-fetch-get@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\01-fetch-get":
-  version "0.1.0"
-  resolved "file:13-fetch-data/01-fetch-get"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-first-react-app@file:C:\\Users\\kents\\Desktop\\React_source_code\\01-get-started\\01-first-react-app":
-  version "0.1.0"
-  resolved "file:01-get-started/01-first-react-app"
-  dependencies:
-    "@testing-library/jest-dom" "^5.17.0"
-    "@testing-library/react" "^13.4.0"
-    "@testing-library/user-event" "^13.5.0"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.4"
-
-"01-fragment@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\01-fragment":
-  version "0.1.0"
-  resolved "file:07-advanced-jsx/01-fragment"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-get-dom-instance@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\01-get-dom-instance":
-  version "0.1.0"
-  resolved "file:14-react-dom/01-get-dom-instance"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-handle-component-errors@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\01-handle-component-errors":
-  version "0.1.0"
-  resolved "file:11-advanced-components/01-handle-component-errors"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-handle-user-input@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\01-handle-user-input":
-  version "0.1.0"
-  resolved "file:05-react-form-basics/01-handle-user-input"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-how-to-define-a-custom-hook@file:C:\\Users\\kents\\Desktop\\React_source_code\\12-react-custom-hooks\\01-how-to-define-a-custom-hook":
-  version "0.1.0"
-  resolved "file:12-react-custom-hooks/01-how-to-define-a-custom-hook"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-install-react-router@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\01-install-react-router":
-  version "0.1.0"
-  resolved "file:20-react-router/01-install-react-router"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-install-redux-redux-toolkit@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\01-install-redux-redux-toolkit":
-  version "0.1.0"
-  resolved "file:22-redux/01-install-redux-redux-toolkit"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-lifting-state-up@file:C:\\Users\\kents\\Desktop\\React_source_code\\09-advanced-state\\01-lifting-state-up":
-  version "0.1.0"
-  resolved "file:09-advanced-state/01-lifting-state-up"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-passing-props-deeply@file:C:\\Users\\kents\\Desktop\\React_source_code\\21-react-context-api\\01-passing-props-deeply":
-  version "0.1.0"
-  resolved "file:21-react-context-api/01-passing-props-deeply"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-props-data-flow@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\01-props-data-flow":
-  version "0.1.0"
-  resolved "file:08-advanced-props/01-props-data-flow"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-react-dev-tools-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\15-react-debug\\01-react-dev-tools-component":
-  version "0.1.0"
-  resolved "file:15-react-debug/01-react-dev-tools-component"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-usememo-remember-values@file:C:\\Users\\kents\\Desktop\\React_source_code\\16-react-performance-optimization\\01-usememo-remember-values":
-  version "0.1.0"
-  resolved "file:16-react-performance-optimization/01-usememo-remember-values"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-what-is-a-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\01-what-is-a-component":
-  version "0.1.0"
-  resolved "file:03-react-component-basics/01-what-is-a-component"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-what-is-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\01-what-is-state":
-  version "0.1.0"
-  resolved "file:04-react-state-basics/01-what-is-state"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-writing-page-using-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\01-writing-page-using-jsx":
-  version "0.1.0"
-  resolved "file:02-react-basics/01-writing-page-using-jsx"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"01-wrong-example-to-use-effects@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\01-wrong-example-to-use-effects":
-  version "0.1.0"
-  resolved "file:06-react-side-effects/01-wrong-example-to-use-effects"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-add-styles-to-html@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\02-add-styles-to-html":
-  version "0.1.0"
-  resolved "file:18-styled-components/02-add-styles-to-html"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"02-async-components-suspense@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\02-async-components-suspense":
-  version "0.1.0"
-  resolved "file:11-advanced-components/02-async-components-suspense"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-before-global-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\21-react-context-api\\03-global-state":
-  version "0.1.0"
-  resolved "file:21-react-context-api/03-global-state"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-child-to-parent-communication@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\02-child-to-parent-communication":
-  version "0.1.0"
-  resolved "file:08-advanced-props/02-child-to-parent-communication"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-config-react-router@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\02-config-react-router":
-  version "0.1.0"
-  resolved "file:20-react-router/02-config-react-router"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-config-store@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\02-config-store":
-  version "0.1.0"
-  resolved "file:22-redux/02-config-store"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-css-keyframes@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\02-css-keyframes":
-  version "0.1.0"
-  resolved "file:19-react-animations/02-css-keyframes"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"02-define-a-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\02-define-a-component":
-  version "0.1.0"
-  resolved "file:03-react-component-basics/02-define-a-component"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-define-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\02-define-state":
-  version "0.1.0"
-  resolved "file:04-react-state-basics/02-define-state"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-difference-between-html-and-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\02-difference-between-html-and-jsx":
-  version "0.1.0"
-  resolved "file:02-react-basics/02-difference-between-html-and-jsx"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-form-control-handling@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\02-form-control-handling":
-  version "0.1.0"
-  resolved "file:05-react-form-basics/02-form-control-handling"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-handle-dom-in-useeffect@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\02-handle-dom-in-useeffect":
-  version "0.1.0"
-  resolved "file:14-react-dom/02-handle-dom-in-useeffect"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-loading-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\02-loading-state":
-  version "0.1.0"
-  resolved "file:13-fetch-data/02-loading-state"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-memo-remember-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\16-react-performance-optimization\\02-memo-remember-components":
-  version "0.1.0"
-  resolved "file:16-react-performance-optimization/02-memo-remember-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-organize-context-code@file:C:\\Users\\kents\\Desktop\\React_source_code\\21-react-context-api\\02-organize-context-code":
-  version "0.1.0"
-  resolved "file:21-react-context-api/02-organize-context-code"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-pass-args-to-hooks@file:C:\\Users\\kents\\Desktop\\React_source_code\\12-react-custom-hooks\\02-pass-args-to-hooks":
-  version "0.1.0"
-  resolved "file:12-react-custom-hooks/02-pass-args-to-hooks"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-react-build@file:C:\\Users\\kents\\Desktop\\React_source_code\\15-react-debug\\02-react-build":
-  version "0.1.0"
-  resolved "file:15-react-debug/02-react-build"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-save-jsx-to-variables@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\02-save-jsx-to-variables":
-  version "0.1.0"
-  resolved "file:07-advanced-jsx/02-save-jsx-to-variables"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-state-updating-is-async@file:C:\\Users\\kents\\Desktop\\React_source_code\\09-advanced-state\\02-state-updating-is-async":
-  version "0.1.0"
-  resolved "file:09-advanced-state/02-state-updating-is-async"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-use-use-effects-to-execute-side-effects@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\02-use-useEffect-to-execute-side-effects":
-  version "0.1.0"
-  resolved "file:06-react-side-effects/02-use-useEffect-to-execute-side-effects"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"02-use-usecallback-to-avoid-rerun@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\02-use-usecallback-to-avoid-rerun":
-  version "0.1.0"
-  resolved "file:10-advanced-effects/02-use-usecallback-to-avoid-rerun"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-add-url-query-params@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\03-add-url-query-params":
-  version "0.1.0"
-  resolved "file:13-fetch-data/03-add-url-query-params"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-config-index-route@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\03-config-index-route":
-  version "0.1.0"
-  resolved "file:20-react-router/03-config-index-route"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-create-slice@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\03-create-slice":
-  version "0.1.0"
-  resolved "file:22-redux/03-create-slice"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-forward-ref@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\03-forward-ref":
-  version "0.1.0"
-  resolved "file:14-react-dom/03-forward-ref"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-import-a-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\03-import-a-component":
-  version "0.1.0"
-  resolved "file:03-react-component-basics/03-import-a-component"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-js-web-animation-api@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\03-js-web-animation-api":
-  version "0.1.0"
-  resolved "file:19-react-animations/03-js-web-animation-api"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"03-load-svgs@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\03-load-svgs":
-  version "0.1.0"
-  resolved "file:11-advanced-components/03-load-svgs"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-multiple-state-management@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\03-multiple-state-management":
-  version "0.1.0"
-  resolved "file:05-react-form-basics/03-multiple-state-management"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-new-way-of-conditional-rendering@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\03-new-way-of-conditional-rendering":
-  version "0.1.0"
-  resolved "file:07-advanced-jsx/03-new-way-of-conditional-rendering"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-props-types@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\03-props-types":
-  version "0.1.0"
-  resolved "file:08-advanced-props/03-props-types"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-put-fun-dep-outside@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\03-put-fun-dep-outside":
-  version "0.1.0"
-  resolved "file:10-advanced-effects/03-put-fun-dep-outside"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-reuse-hooks-in-different-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\12-react-custom-hooks\\03-reuse-hooks-in-different-components":
-  version "0.1.0"
-  resolved "file:12-react-custom-hooks/03-reuse-hooks-in-different-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-update-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\03-update-state":
-  version "0.1.0"
-  resolved "file:04-react-state-basics/03-update-state"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-use-callback-to-remember-funcs@file:C:\\Users\\kents\\Desktop\\React_source_code\\16-react-performance-optimization\\03-use-callback-to-remember-funcs":
-  version "0.1.0"
-  resolved "file:16-react-performance-optimization/03-use-callback-to-remember-funcs"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-use-js-expressions-in-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\03-use-js-expressions-in-jsx":
-  version "0.1.0"
-  resolved "file:02-react-basics/03-use-js-expressions-in-jsx"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-use-previous-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\09-advanced-state\\03-use-previous-state":
-  version "0.1.0"
-  resolved "file:09-advanced-state/03-use-previous-state"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"03-ways-to-manage-style-files@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\03-ways-to-manage-style-files":
-  version "0.1.0"
-  resolved "file:18-styled-components/03-ways-to-manage-style-files"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"03-when-use-effect-runs@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\03-when-use-effect-runs":
-  version "0.1.0"
-  resolved "file:06-react-side-effects/03-when-use-effect-runs"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-clean-effects@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\04-clean-effects":
-  version "0.1.0"
-  resolved "file:06-react-side-effects/04-clean-effects"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-config-child-routes@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\04-config-child-routes":
-  version "0.1.0"
-  resolved "file:20-react-router/04-config-child-routes"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-convert-effect-to-events@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\04-convert-effect-to-events":
-  version "0.1.0"
-  resolved "file:10-advanced-effects/04-convert-effect-to-events"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-define-props@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\04-define-props":
-  version "0.1.0"
-  resolved "file:03-react-component-basics/04-define-props"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-display-list-data@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\04-display-list-data":
-  version "0.1.0"
-  resolved "file:02-react-basics/04-display-list-data"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-export-sub-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\04-export-sub-components":
-  version "0.1.0"
-  resolved "file:07-advanced-jsx/04-export-sub-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-import-alias@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\04-import-alias":
-  version "0.1.0"
-  resolved "file:11-advanced-components/04-import-alias"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-overriding-styles@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\04-overriding-styles":
-  version "0.1.0"
-  resolved "file:18-styled-components/04-overriding-styles"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"04-post-data-to-server@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\04-post-data-to-server":
-  version "0.1.0"
-  resolved "file:13-fetch-data/04-post-data-to-server"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-render-props@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\04-render-props":
-  version "0.1.0"
-  resolved "file:08-advanced-props/04-render-props"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-rtg-csstransition@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\04-rtg-csstransition":
-  version "0.1.0"
-  resolved "file:19-react-animations/04-rtg-csstransition"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    react-transition-group "^4.4.5"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"04-update-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\04-update-array-state":
+"01-add-styled-component@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\18-styled-components\\01-add-styled-component":
+  resolved "git+ssh://git@github.com/18-styled-components/01-add-styled-component.git"
+
+"01-css-transitions@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\19-react-animations\\01-css-transitions":
+  resolved "git+ssh://git@github.com/19-react-animations/01-css-transitions.git"
+
+"01-do-not-overlooking-dep-arrs@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\10-advanced-effects\\01-do-not-overlooking-dep-arrs":
+  resolved "git+ssh://git@github.com/10-advanced-effects/01-do-not-overlooking-dep-arrs.git"
+
+"01-fetch-get@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\01-fetch-get":
+  resolved "git+ssh://git@github.com/13-fetch-data/01-fetch-get.git"
+
+"01-first-react-app@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\01-get-started\\01-first-react-app":
+  resolved "git+ssh://git@github.com/01-get-started/01-first-react-app.git"
+
+"01-fragment@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\07-advanced-jsx\\01-fragment":
+  resolved "git+ssh://git@github.com/07-advanced-jsx/01-fragment.git"
+
+"01-get-dom-instance@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\14-react-dom\\01-get-dom-instance":
+  resolved "git+ssh://git@github.com/14-react-dom/01-get-dom-instance.git"
+
+"01-handle-component-errors@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\11-advanced-components\\01-handle-component-errors":
+  resolved "git+ssh://git@github.com/11-advanced-components/01-handle-component-errors.git"
+
+"01-handle-user-input@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\05-react-form-basics\\01-handle-user-input":
+  resolved "git+ssh://git@github.com/05-react-form-basics/01-handle-user-input.git"
+
+"01-how-to-define-a-custom-hook@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\12-react-custom-hooks\\01-how-to-define-a-custom-hook":
+  resolved "git+ssh://git@github.com/12-react-custom-hooks/01-how-to-define-a-custom-hook.git"
+
+"01-install-react-router@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\01-install-react-router":
+  resolved "git+ssh://git@github.com/20-react-router/01-install-react-router.git"
+
+"01-install-redux-redux-toolkit@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\01-install-redux-redux-toolkit":
+  resolved "git+ssh://git@github.com/22-redux/01-install-redux-redux-toolkit.git"
+
+"01-lifting-state-up@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\09-advanced-state\\01-lifting-state-up":
+  resolved "git+ssh://git@github.com/09-advanced-state/01-lifting-state-up.git"
+
+"01-passing-props-deeply@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\21-react-context-api\\01-passing-props-deeply":
+  resolved "git+ssh://git@github.com/21-react-context-api/01-passing-props-deeply.git"
+
+"01-props-data-flow@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\01-props-data-flow":
+  resolved "git+ssh://git@github.com/08-advanced-props/01-props-data-flow.git"
+
+"01-react-dev-tools-component@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\15-react-debug\\01-react-dev-tools-component":
+  resolved "git+ssh://git@github.com/15-react-debug/01-react-dev-tools-component.git"
+
+"01-usememo-remember-values@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\16-react-performance-optimization\\01-usememo-remember-values":
+  resolved "git+ssh://git@github.com/16-react-performance-optimization/01-usememo-remember-values.git"
+
+"01-what-is-a-component@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\03-react-component-basics\\01-what-is-a-component":
+  resolved "git+ssh://git@github.com/03-react-component-basics/01-what-is-a-component.git"
+
+"01-what-is-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\04-react-state-basics\\01-what-is-state":
+  resolved "git+ssh://git@github.com/04-react-state-basics/01-what-is-state.git"
+
+"01-writing-page-using-jsx@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\01-writing-page-using-jsx":
+  resolved "git+ssh://git@github.com/02-react-basics/01-writing-page-using-jsx.git"
+
+"01-wrong-example-to-use-effects@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\06-react-side-effects\\01-wrong-example-to-use-effects":
+  resolved "git+ssh://git@github.com/06-react-side-effects/01-wrong-example-to-use-effects.git"
+
+"02-add-styles-to-html@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\18-styled-components\\02-add-styles-to-html":
+  resolved "git+ssh://git@github.com/18-styled-components/02-add-styles-to-html.git"
+
+"02-async-components-suspense@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\11-advanced-components\\02-async-components-suspense":
+  resolved "git+ssh://git@github.com/11-advanced-components/02-async-components-suspense.git"
+
+"02-before-global-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\21-react-context-api\\03-global-state":
+  resolved "git+ssh://git@github.com/21-react-context-api/03-global-state.git"
+
+"02-child-to-parent-communication@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\02-child-to-parent-communication":
+  resolved "git+ssh://git@github.com/08-advanced-props/02-child-to-parent-communication.git"
+
+"02-config-react-router@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\02-config-react-router":
+  resolved "git+ssh://git@github.com/20-react-router/02-config-react-router.git"
+
+"02-config-store@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\02-config-store":
+  resolved "git+ssh://git@github.com/22-redux/02-config-store.git"
+
+"02-css-keyframes@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\19-react-animations\\02-css-keyframes":
+  resolved "git+ssh://git@github.com/19-react-animations/02-css-keyframes.git"
+
+"02-define-a-component@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\03-react-component-basics\\02-define-a-component":
+  resolved "file:../../React_source_code/03-react-component-basics/02-define-a-component"
+
+"02-define-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\04-react-state-basics\\02-define-state":
+  resolved "git+ssh://git@github.com/04-react-state-basics/02-define-state.git"
+
+"02-difference-between-html-and-jsx@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\02-difference-between-html-and-jsx":
+  resolved "git+ssh://git@github.com/02-react-basics/02-difference-between-html-and-jsx.git"
+
+"02-form-control-handling@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\05-react-form-basics\\02-form-control-handling":
+  resolved "git+ssh://git@github.com/05-react-form-basics/02-form-control-handling.git"
+
+"02-handle-dom-in-useeffect@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\14-react-dom\\02-handle-dom-in-useeffect":
+  resolved "git+ssh://git@github.com/14-react-dom/02-handle-dom-in-useeffect.git"
+
+"02-loading-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\02-loading-state":
+  resolved "git+ssh://git@github.com/13-fetch-data/02-loading-state.git"
+
+"02-memo-remember-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\16-react-performance-optimization\\02-memo-remember-components":
+  resolved "git+ssh://git@github.com/16-react-performance-optimization/02-memo-remember-components.git"
+
+"02-organize-context-code@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\21-react-context-api\\02-organize-context-code":
+  resolved "git+ssh://git@github.com/21-react-context-api/02-organize-context-code.git"
+
+"02-pass-args-to-hooks@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\12-react-custom-hooks\\02-pass-args-to-hooks":
+  resolved "git+ssh://git@github.com/12-react-custom-hooks/02-pass-args-to-hooks.git"
+
+"02-react-build@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\15-react-debug\\02-react-build":
+  resolved "git+ssh://git@github.com/15-react-debug/02-react-build.git"
+
+"02-save-jsx-to-variables@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\07-advanced-jsx\\02-save-jsx-to-variables":
+  resolved "git+ssh://git@github.com/07-advanced-jsx/02-save-jsx-to-variables.git"
+
+"02-state-updating-is-async@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\09-advanced-state\\02-state-updating-is-async":
+  resolved "git+ssh://git@github.com/09-advanced-state/02-state-updating-is-async.git"
+
+"02-use-use-effects-to-execute-side-effects@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\06-react-side-effects\\02-use-useEffect-to-execute-side-effects":
+  resolved "git+ssh://git@github.com/06-react-side-effects/02-use-useEffect-to-execute-side-effects.git"
+
+"02-use-usecallback-to-avoid-rerun@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\10-advanced-effects\\02-use-usecallback-to-avoid-rerun":
+  resolved "git+ssh://git@github.com/10-advanced-effects/02-use-usecallback-to-avoid-rerun.git"
+
+"03-add-url-query-params@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\03-add-url-query-params":
+  resolved "git+ssh://git@github.com/13-fetch-data/03-add-url-query-params.git"
+
+"03-config-index-route@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\03-config-index-route":
+  resolved "git+ssh://git@github.com/20-react-router/03-config-index-route.git"
+
+"03-create-slice@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\03-create-slice":
+  resolved "git+ssh://git@github.com/22-redux/03-create-slice.git"
+
+"03-forward-ref@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\14-react-dom\\03-forward-ref":
+  resolved "git+ssh://git@github.com/14-react-dom/03-forward-ref.git"
+
+"03-import-a-component@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\03-react-component-basics\\03-import-a-component":
+  resolved "git+ssh://git@github.com/03-react-component-basics/03-import-a-component.git"
+
+"03-js-web-animation-api@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\19-react-animations\\03-js-web-animation-api":
+  resolved "git+ssh://git@github.com/19-react-animations/03-js-web-animation-api.git"
+
+"03-load-svgs@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\11-advanced-components\\03-load-svgs":
+  resolved "git+ssh://git@github.com/11-advanced-components/03-load-svgs.git"
+
+"03-multiple-state-management@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\05-react-form-basics\\03-multiple-state-management":
+  resolved "git+ssh://git@github.com/05-react-form-basics/03-multiple-state-management.git"
+
+"03-new-way-of-conditional-rendering@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\07-advanced-jsx\\03-new-way-of-conditional-rendering":
+  resolved "git+ssh://git@github.com/07-advanced-jsx/03-new-way-of-conditional-rendering.git"
+
+"03-props-types@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\03-props-types":
+  resolved "git+ssh://git@github.com/08-advanced-props/03-props-types.git"
+
+"03-put-fun-dep-outside@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\10-advanced-effects\\03-put-fun-dep-outside":
+  resolved "git+ssh://git@github.com/10-advanced-effects/03-put-fun-dep-outside.git"
+
+"03-reuse-hooks-in-different-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\12-react-custom-hooks\\03-reuse-hooks-in-different-components":
+  resolved "git+ssh://git@github.com/12-react-custom-hooks/03-reuse-hooks-in-different-components.git"
+
+"03-update-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\04-react-state-basics\\03-update-state":
+  resolved "git+ssh://git@github.com/04-react-state-basics/03-update-state.git"
+
+"03-use-callback-to-remember-funcs@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\16-react-performance-optimization\\03-use-callback-to-remember-funcs":
+  resolved "git+ssh://git@github.com/16-react-performance-optimization/03-use-callback-to-remember-funcs.git"
+
+"03-use-js-expressions-in-jsx@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\03-use-js-expressions-in-jsx":
+  resolved "git+ssh://git@github.com/02-react-basics/03-use-js-expressions-in-jsx.git"
+
+"03-use-previous-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\09-advanced-state\\03-use-previous-state":
+  resolved "git+ssh://git@github.com/09-advanced-state/03-use-previous-state.git"
+
+"03-ways-to-manage-style-files@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\18-styled-components\\03-ways-to-manage-style-files":
+  resolved "git+ssh://git@github.com/18-styled-components/03-ways-to-manage-style-files.git"
+
+"03-when-use-effect-runs@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\06-react-side-effects\\03-when-use-effect-runs":
+  resolved "git+ssh://git@github.com/06-react-side-effects/03-when-use-effect-runs.git"
+
+"04-clean-effects@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\06-react-side-effects\\04-clean-effects":
+  resolved "git+ssh://git@github.com/06-react-side-effects/04-clean-effects.git"
+
+"04-config-child-routes@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\04-config-child-routes":
+  resolved "git+ssh://git@github.com/20-react-router/04-config-child-routes.git"
+
+"04-convert-effect-to-events@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\10-advanced-effects\\04-convert-effect-to-events":
+  resolved "git+ssh://git@github.com/10-advanced-effects/04-convert-effect-to-events.git"
+
+"04-define-props@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\03-react-component-basics\\04-define-props":
+  resolved "git+ssh://git@github.com/03-react-component-basics/04-define-props.git"
+
+"04-display-list-data@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\04-display-list-data":
+  resolved "git+ssh://git@github.com/02-react-basics/04-display-list-data.git"
+
+"04-export-sub-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\07-advanced-jsx\\04-export-sub-components":
+  resolved "git+ssh://git@github.com/07-advanced-jsx/04-export-sub-components.git"
+
+"04-import-alias@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\11-advanced-components\\04-import-alias":
+  resolved "git+ssh://git@github.com/11-advanced-components/04-import-alias.git"
+
+"04-overriding-styles@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\18-styled-components\\04-overriding-styles":
+  resolved "git+ssh://git@github.com/18-styled-components/04-overriding-styles.git"
+
+"04-post-data-to-server@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\04-post-data-to-server":
+  resolved "git+ssh://git@github.com/13-fetch-data/04-post-data-to-server.git"
+
+"04-render-props@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\04-render-props":
+  resolved "git+ssh://git@github.com/08-advanced-props/04-render-props.git"
+
+"04-rtg-csstransition@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\19-react-animations\\04-rtg-csstransition":
+  resolved "git+ssh://git@github.com/19-react-animations/04-rtg-csstransition.git"
+
+"04-update-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\04-react-state-basics\\04-update-array-state":
   version "0.1.0"
   resolved "file:04-react-state-basics/04-update-array-state"
   dependencies:
@@ -3318,1366 +2631,299 @@
     react-scripts "5.0.1"
     web-vitals "^2.1.0"
 
-"04-use-callback-state-as-deps@file:C:\\Users\\kents\\Desktop\\React_source_code\\16-react-performance-optimization\\04-use-callback-state-as-deps":
-  version "0.1.0"
-  resolved "file:16-react-performance-optimization/04-use-callback-state-as-deps"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-use-imerative-handle@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\04-use-imerative-handle":
-  version "0.1.0"
-  resolved "file:14-react-dom/04-use-imerative-handle"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-use-loop-to-render-multiple-checkboxes-and-radios@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\04-use-loop-to-render-multiple-checkboxes-and-radios":
-  version "0.1.0"
-  resolved "file:05-react-form-basics/04-use-loop-to-render-multiple-checkboxes-and-radios"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-use-other-hooks-return-val-as-args@file:C:\\Users\\kents\\Desktop\\React_source_code\\12-react-custom-hooks\\04-use-other-hooks-return-val-as-args":
-  version "0.1.0"
-  resolved "file:12-react-custom-hooks/04-use-other-hooks-return-val-as-args"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-use-reducer@file:C:\\Users\\kents\\Desktop\\React_source_code\\09-advanced-state\\04-use-reducer":
-  version "0.1.0"
-  resolved "file:09-advanced-state/04-use-reducer"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"04-use-selector@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\04-use-selector":
-  version "0.1.0"
-  resolved "file:22-redux/04-use-selector"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-avoid-rerender-between-fetches@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\05-avoid-rerender-between-fetches":
-  version "0.1.0"
-  resolved "file:10-advanced-effects/05-avoid-rerender-between-fetches"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-conditional-rendering@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\05-conditional-rendering":
-  version "0.1.0"
-  resolved "file:02-react-basics/05-conditional-rendering"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-define-reducer@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\05-define-reducer":
-  version "0.1.0"
-  resolved "file:22-redux/05-define-reducer"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-execute-async-functions@file:C:\\Users\\kents\\Desktop\\React_source_code\\06-react-side-effects\\05-execute-async-functions":
-  version "0.1.0"
-  resolved "file:06-react-side-effects/05-execute-async-functions"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-handle-form-submit@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\05-handle-form-submit":
-  version "0.1.0"
-  resolved "file:05-react-form-basics/05-handle-form-submit"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-link-client-side-routing@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\05-link-client-side-routing":
-  version "0.1.0"
-  resolved "file:20-react-router/05-link-client-side-routing"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-pass-multiple-props-using-spread-op@file:C:\\Users\\kents\\Desktop\\React_source_code\\07-advanced-jsx\\05-pass-multiple-props-using-spread-op":
-  version "0.1.0"
-  resolved "file:07-advanced-jsx/05-pass-multiple-props-using-spread-op"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-props-default-values@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\05-props-default-values":
-  version "0.1.0"
-  resolved "file:03-react-component-basics/05-props-default-values"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-props-type-validation@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\05-props-type-validation":
-  version "0.1.0"
-  resolved "file:08-advanced-props/05-props-type-validation"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-rtg-switchtransition@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\05-rtg-switchtransition":
-  version "0.1.0"
-  resolved "file:19-react-animations/05-rtg-switchtransition"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    react-transition-group "^4.4.5"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"05-set-http-headers@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\05-set-http-headers":
-  version "0.1.0"
-  resolved "file:13-fetch-data/05-set-http-headers"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-style-normal-react-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\05-style-normal-react-components":
-  version "0.1.0"
-  resolved "file:18-styled-components/05-style-normal-react-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"05-update-object-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\04-react-state-basics\\05-update-object-state":
-  version "0.1.0"
-  resolved "file:04-react-state-basics/05-update-object-state"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-use-children-to-reduce-nesting@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\05-use-children-to-reduce-nesting":
-  version "0.1.0"
-  resolved "file:11-advanced-components/05-use-children-to-reduce-nesting"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"05-use-id@file:C:\\Users\\kents\\Desktop\\React_source_code\\14-react-dom\\05-use-id":
-  version "0.1.0"
-  resolved "file:14-react-dom/05-use-id"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"06-access-props-in-styled-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\06-access-props-in-styled-components":
-  version "0.1.0"
-  resolved "file:18-styled-components/06-access-props-in-styled-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"06-children-as-function-to-pass-data-to-parent@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\06-children-as-function-to-pass-data-to-parent":
-  version "0.1.0"
-  resolved "file:08-advanced-props/06-children-as-function-to-pass-data-to-parent"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"06-controlled-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\06-controlled-components":
-  version "0.1.0"
-  resolved "file:11-advanced-components/06-controlled-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"06-do-not-put-effects-in-blocks@file:C:\\Users\\kents\\Desktop\\React_source_code\\10-advanced-effects\\06-do-not-put-effects-in-blocks":
-  version "0.1.0"
-  resolved "file:10-advanced-effects/06-do-not-put-effects-in-blocks"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"06-handling-request-errors@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\06-handling-request-errors":
-  version "0.1.0"
-  resolved "file:13-fetch-data/06-handling-request-errors"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"06-jsx-falsy-values@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\06-jsx-falsy-values":
-  version "0.1.0"
-  resolved "file:02-react-basics/06-jsx-falsy-values"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"06-passing-children-to-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\06-passing-children-to-components":
-  version "0.1.0"
-  resolved "file:03-react-component-basics/06-passing-children-to-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"06-reset-form-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\06-reset-form-state":
-  version "0.1.0"
-  resolved "file:05-react-form-basics/06-reset-form-state"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"06-rgt-transitiongroup@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\06-rgt-transitiongroup":
-  version "0.1.0"
-  resolved "file:19-react-animations/06-rgt-transitiongroup"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    react-transition-group "^4.4.5"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"06-use-loader-to-fetch-data@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\06-use-loader-to-fetch-data":
-  version "0.1.0"
-  resolved "file:20-react-router/06-use-loader-to-fetch-data"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"06-word-slice@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\06-accessing-other-state-in-selectors":
-  version "0.1.0"
-  resolved "file:22-redux/06-accessing-other-state-in-selectors"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"07-access-loader-data-in-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\07-access-loader-data-in-components":
-  version "0.1.0"
-  resolved "file:20-react-router/07-access-loader-data-in-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"07-config-proxy@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\07-config-proxy":
-  version "0.1.0"
-  resolved "file:13-fetch-data/07-config-proxy"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"07-form-validation@file:C:\\Users\\kents\\Desktop\\React_source_code\\05-react-form-basics\\07-form-validation":
-  version "0.1.0"
-  resolved "file:05-react-form-basics/07-form-validation"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"07-integrate-with-animate-css@file:C:\\Users\\kents\\Desktop\\React_source_code\\19-react-animations\\07-integrate-with-animate-css":
-  version "0.1.0"
-  resolved "file:19-react-animations/07-integrate-with-animate-css"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    animate.css "^4.1.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    react-transition-group "^4.4.5"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"07-nesting-styles@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\07-nesting-styles":
-  version "0.1.0"
-  resolved "file:18-styled-components/07-nesting-styles"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"07-passing-event-handlers-to-child-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\07-passing-event-handlers-to-child-component":
-  version "0.1.0"
-  resolved "file:03-react-component-basics/07-passing-event-handlers-to-child-component"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"07-react-props-pass-through@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\07-react-props-pass-through":
-  version "0.1.0"
-  resolved "file:08-advanced-props/07-react-props-pass-through"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"07-uncontrolled-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\07-uncontrolled-components":
-  version "0.1.0"
-  resolved "file:11-advanced-components/07-uncontrolled-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"07-update-array-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\07-update-array-state":
-  version "0.1.0"
-  resolved "file:22-redux/07-update-array-state"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"07-use-comments-in-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\07-use-comments-in-jsx":
-  version "0.1.0"
-  resolved "file:02-react-basics/07-use-comments-in-jsx"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"08-cancel-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\08-cancel-request":
-  version "0.1.0"
-  resolved "file:13-fetch-data/08-cancel-request"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"08-classnames-passing-and-merging@file:C:\\Users\\kents\\Desktop\\React_source_code\\08-advanced-props\\08-classnames-passing-and-merging":
-  version "0.1.0"
-  resolved "file:08-advanced-props/08-classnames-passing-and-merging"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"08-get-dynamic-params@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\08-get-dynamic-params":
-  version "0.1.0"
-  resolved "file:20-react-router/08-get-dynamic-params"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"08-handle-events@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\08-handle-events":
-  version "0.1.0"
-  resolved "file:02-react-basics/08-handle-events"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"08-higher-order-components@file:C:\\Users\\kents\\Desktop\\React_source_code\\11-advanced-components\\08-higher-order-components":
-  version "0.1.0"
-  resolved "file:11-advanced-components/08-higher-order-components"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"08-local-form-handling@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\08-local-form-handling":
-  version "0.1.0"
-  resolved "file:22-redux/08-local-form-handling"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"08-passing-data-to-parent-component@file:C:\\Users\\kents\\Desktop\\React_source_code\\03-react-component-basics\\08-passing-data-to-parent-component":
-  version "0.1.0"
-  resolved "file:03-react-component-basics/08-passing-data-to-parent-component"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"08-theme@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\08-theme":
-  version "0.1.0"
-  resolved "file:18-styled-components/08-theme"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"09-active-nav-link@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\09-active-nav-link":
-  version "0.1.0"
-  resolved "file:20-react-router/09-active-nav-link"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"09-add-style-classes@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\09-add-style-classes":
-  version "0.1.0"
-  resolved "file:02-react-basics/09-add-style-classes"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"09-as-another-element@file:C:\\Users\\kents\\Desktop\\React_source_code\\18-styled-components\\09-as-another-element":
-  version "0.1.0"
-  resolved "file:18-styled-components/09-as-another-element"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    styled-components "^6.1.8"
-    web-vitals "^2.1.0"
-
-"09-enhance-fetch@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\09-enhance-fetch":
-  version "0.1.0"
-  resolved "file:13-fetch-data/09-enhance-fetch"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"09-global-form-handling-search@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\09-global-form-handling-search":
-  version "0.1.0"
-  resolved "file:22-redux/09-global-form-handling-search"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"10-add-inline-style@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\10-add-inline-style":
-  version "0.1.0"
-  resolved "file:02-react-basics/10-add-inline-style"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"10-form-get-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\10-form-routing":
-  version "0.1.0"
-  resolved "file:20-react-router/10-form-routing"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"10-global-form-handling-sort@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\10-global-form-handling-sort":
-  version "0.1.0"
-  resolved "file:22-redux/10-global-form-handling-sort"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"10-use-axios@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\10-use-axios":
-  version "0.1.0"
-  resolved "file:13-fetch-data/10-use-axios"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    axios "^1.4.0"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"11-display-images@file:C:\\Users\\kents\\Desktop\\React_source_code\\02-react-basics\\11-display-images":
-  version "0.1.0"
-  resolved "file:02-react-basics/11-display-images"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"11-form-post@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\11-form-post":
-  version "0.1.0"
-  resolved "file:20-react-router/11-form-post"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"11-global-form-handling-select@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\11-global-form-handling-select":
-  version "0.1.0"
-  resolved "file:22-redux/11-global-form-handling-select"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"12-enhance-axios@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\12-enhance-axios":
-  version "0.1.0"
-  resolved "file:13-fetch-data/12-enhance-axios"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    axios "^1.4.0"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"12-redirect@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\12-redirect":
-  version "0.1.0"
-  resolved "file:20-react-router/12-redirect"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"12-use-selector-from-other-selector@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\12-use-selector-from-other-selector":
-  version "0.1.0"
-  resolved "file:22-redux/12-use-selector-from-other-selector"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"13-12-axios-cancel-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\13-fetch-data\\11-axios-cancel-request":
-  version "0.1.0"
-  resolved "file:13-fetch-data/11-axios-cancel-request"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    axios "^1.4.0"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"13-exercise-remaining-words@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\13-exercise-remaining-words":
-  version "0.1.0"
-  resolved "file:22-redux/13-exercise-remaining-words"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"13-form-default-values@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\13-form-default-values":
-  version "0.1.0"
-  resolved "file:20-react-router/13-form-default-values"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"14-form-put@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\14-form-put":
-  version "0.1.0"
-  resolved "file:20-react-router/14-form-put"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"14-thunk-get-state@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\14-thunk-get-state":
-  version "0.1.0"
-  resolved "file:22-redux/14-thunk-get-state"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"15-form-delete@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\15-form-delete":
-  version "0.1.0"
-  resolved "file:20-react-router/15-form-delete"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"15-prepare-async-requests@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\15-prepare-async-requests":
-  version "0.1.0"
-  resolved "file:22-redux/15-prepare-async-requests"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"16-navigate-programmatically@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\16-navigate-programmatically":
-  version "0.1.0"
-  resolved "file:20-react-router/16-navigate-programmatically"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"16-thunk-get-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\16-thunk-get-request":
-  version "0.1.0"
-  resolved "file:22-redux/16-thunk-get-request"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"17-dispatch-async-thunk@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\17-dispatch-async-thunk":
-  version "0.1.0"
-  resolved "file:22-redux/17-dispatch-async-thunk"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"17-form-get-search@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\17-form-get-search":
-  version "0.1.0"
-  resolved "file:20-react-router/17-form-get-search"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"18-thunk-post-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\18-thunk-post-request":
-  version "0.1.0"
-  resolved "file:22-redux/18-thunk-post-request"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"18-url-form-sync@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\19-url-form-sync":
-  version "0.1.0"
-  resolved "file:20-react-router/19-url-form-sync"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"18-usesubmit@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\18-usesubmit":
-  version "0.1.0"
-  resolved "file:20-react-router/18-usesubmit"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"19-thunk-put-request@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\19-thunk-put-request":
-  version "0.1.0"
-  resolved "file:22-redux/19-thunk-put-request"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"20-form-replace-vs-push@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\20-form-replace-vs-push":
-  version "0.1.0"
-  resolved "file:20-react-router/20-form-replace-vs-push"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"20-rtk-query-fetch-data@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\20-rtk-query-fetch-data":
-  version "0.1.0"
-  resolved "file:22-redux/20-rtk-query-fetch-data"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"21-rtk-data-mutation@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\21-rtk-data-mutation":
-  version "0.1.0"
-  resolved "file:22-redux/21-rtk-data-mutation"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"21-use-fetcher-to-prevent-redirects@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\21-use-fetcher-to-prevent-redirects":
-  version "0.1.0"
-  resolved "file:20-react-router/21-use-fetcher-to-prevent-redirects"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"22-optimisitc-ui@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\22-optimistic-ui":
-  version "0.1.0"
-  resolved "file:20-react-router/22-optimistic-ui"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"22-rtk-reinvalidate-data@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\22-rtk-reinvalidate-data":
-  version "0.1.0"
-  resolved "file:22-redux/22-rtk-reinvalidate-data"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"23-global-loading@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\23-global-loading":
-  version "0.1.0"
-  resolved "file:20-react-router/23-global-loading"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"23-rtk-optimistic-ui@file:C:\\Users\\kents\\Desktop\\React_source_code\\22-redux\\23-rtk-optimistic-ui":
-  version "0.1.0"
-  resolved "file:22-redux/23-rtk-optimistic-ui"
-  dependencies:
-    "@reduxjs/toolkit" "^1.9.5"
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.1.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"24-searching-loading@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\24-searching-loading":
-  version "0.1.0"
-  resolved "file:20-react-router/24-searching-loading"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"25-error-handling@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\25-error-handling":
-  version "0.1.0"
-  resolved "file:20-react-router/25-error-handling"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"26-error-boundary@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\26-error-boundary":
-  version "0.1.0"
-  resolved "file:20-react-router/26-error-boundary"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"27-custom-response-error@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\27-custom-response-error":
-  version "0.1.0"
-  resolved "file:20-react-router/27-custom-response-error"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"28-json-utility@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\28-json-utility":
-  version "0.1.0"
-  resolved "file:20-react-router/28-json-utility"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"29-defer-loader@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\29-defer-loader":
-  version "0.1.0"
-  resolved "file:20-react-router/29-defer-loader"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"30-use-async-value@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\30-use-async-value":
-  version "0.1.0"
-  resolved "file:20-react-router/30-use-async-value"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"31-use-fetcher-in-await@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\31-use-fetcher-in-await":
-  version "0.1.0"
-  resolved "file:20-react-router/31-use-fetcher-in-await"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"32-scroll-restoration@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\32-scroll-restoration":
-  version "0.1.0"
-  resolved "file:20-react-router/32-scroll-restoration"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
-
-"33-config-router-using-jsx@file:C:\\Users\\kents\\Desktop\\React_source_code\\20-react-router\\33-config-router-using-jsx":
-  version "0.1.0"
-  resolved "file:20-react-router/33-config-router-using-jsx"
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^13.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    express "^4.18.2"
-    http-proxy-middleware "^2.0.6"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-router-dom "^6.11.2"
-    react-scripts "5.0.1"
-    web-vitals "^2.1.0"
+"04-use-callback-state-as-deps@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\16-react-performance-optimization\\04-use-callback-state-as-deps":
+  resolved "git+ssh://git@github.com/16-react-performance-optimization/04-use-callback-state-as-deps.git"
+
+"04-use-imerative-handle@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\14-react-dom\\04-use-imerative-handle":
+  resolved "git+ssh://git@github.com/14-react-dom/04-use-imerative-handle.git"
+
+"04-use-loop-to-render-multiple-checkboxes-and-radios@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\05-react-form-basics\\04-use-loop-to-render-multiple-checkboxes-and-radios":
+  resolved "git+ssh://git@github.com/05-react-form-basics/04-use-loop-to-render-multiple-checkboxes-and-radios.git"
+
+"04-use-other-hooks-return-val-as-args@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\12-react-custom-hooks\\04-use-other-hooks-return-val-as-args":
+  resolved "git+ssh://git@github.com/12-react-custom-hooks/04-use-other-hooks-return-val-as-args.git"
+
+"04-use-reducer@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\09-advanced-state\\04-use-reducer":
+  resolved "git+ssh://git@github.com/09-advanced-state/04-use-reducer.git"
+
+"04-use-selector@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\04-use-selector":
+  resolved "git+ssh://git@github.com/22-redux/04-use-selector.git"
+
+"05-avoid-rerender-between-fetches@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\10-advanced-effects\\05-avoid-rerender-between-fetches":
+  resolved "git+ssh://git@github.com/10-advanced-effects/05-avoid-rerender-between-fetches.git"
+
+"05-conditional-rendering@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\05-conditional-rendering":
+  resolved "git+ssh://git@github.com/02-react-basics/05-conditional-rendering.git"
+
+"05-define-reducer@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\05-define-reducer":
+  resolved "git+ssh://git@github.com/22-redux/05-define-reducer.git"
+
+"05-execute-async-functions@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\06-react-side-effects\\05-execute-async-functions":
+  resolved "git+ssh://git@github.com/06-react-side-effects/05-execute-async-functions.git"
+
+"05-handle-form-submit@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\05-react-form-basics\\05-handle-form-submit":
+  resolved "git+ssh://git@github.com/05-react-form-basics/05-handle-form-submit.git"
+
+"05-link-client-side-routing@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\05-link-client-side-routing":
+  resolved "git+ssh://git@github.com/20-react-router/05-link-client-side-routing.git"
+
+"05-pass-multiple-props-using-spread-op@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\07-advanced-jsx\\05-pass-multiple-props-using-spread-op":
+  resolved "git+ssh://git@github.com/07-advanced-jsx/05-pass-multiple-props-using-spread-op.git"
+
+"05-props-default-values@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\03-react-component-basics\\05-props-default-values":
+  resolved "git+ssh://git@github.com/03-react-component-basics/05-props-default-values.git"
+
+"05-props-type-validation@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\05-props-type-validation":
+  resolved "git+ssh://git@github.com/08-advanced-props/05-props-type-validation.git"
+
+"05-rtg-switchtransition@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\19-react-animations\\05-rtg-switchtransition":
+  resolved "git+ssh://git@github.com/19-react-animations/05-rtg-switchtransition.git"
+
+"05-set-http-headers@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\05-set-http-headers":
+  resolved "git+ssh://git@github.com/13-fetch-data/05-set-http-headers.git"
+
+"05-style-normal-react-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\18-styled-components\\05-style-normal-react-components":
+  resolved "git+ssh://git@github.com/18-styled-components/05-style-normal-react-components.git"
+
+"05-update-object-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\04-react-state-basics\\05-update-object-state":
+  resolved "git+ssh://git@github.com/04-react-state-basics/05-update-object-state.git"
+
+"05-use-children-to-reduce-nesting@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\11-advanced-components\\05-use-children-to-reduce-nesting":
+  resolved "git+ssh://git@github.com/11-advanced-components/05-use-children-to-reduce-nesting.git"
+
+"05-use-id@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\14-react-dom\\05-use-id":
+  resolved "git+ssh://git@github.com/14-react-dom/05-use-id.git"
+
+"06-access-props-in-styled-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\18-styled-components\\06-access-props-in-styled-components":
+  resolved "git+ssh://git@github.com/18-styled-components/06-access-props-in-styled-components.git"
+
+"06-children-as-function-to-pass-data-to-parent@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\06-children-as-function-to-pass-data-to-parent":
+  resolved "git+ssh://git@github.com/08-advanced-props/06-children-as-function-to-pass-data-to-parent.git"
+
+"06-controlled-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\11-advanced-components\\06-controlled-components":
+  resolved "git+ssh://git@github.com/11-advanced-components/06-controlled-components.git"
+
+"06-do-not-put-effects-in-blocks@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\10-advanced-effects\\06-do-not-put-effects-in-blocks":
+  resolved "git+ssh://git@github.com/10-advanced-effects/06-do-not-put-effects-in-blocks.git"
+
+"06-handling-request-errors@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\06-handling-request-errors":
+  resolved "git+ssh://git@github.com/13-fetch-data/06-handling-request-errors.git"
+
+"06-jsx-falsy-values@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\06-jsx-falsy-values":
+  resolved "git+ssh://git@github.com/02-react-basics/06-jsx-falsy-values.git"
+
+"06-passing-children-to-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\03-react-component-basics\\06-passing-children-to-components":
+  resolved "git+ssh://git@github.com/03-react-component-basics/06-passing-children-to-components.git"
+
+"06-reset-form-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\05-react-form-basics\\06-reset-form-state":
+  resolved "git+ssh://git@github.com/05-react-form-basics/06-reset-form-state.git"
+
+"06-rgt-transitiongroup@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\19-react-animations\\06-rgt-transitiongroup":
+  resolved "git+ssh://git@github.com/19-react-animations/06-rgt-transitiongroup.git"
+
+"06-use-loader-to-fetch-data@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\06-use-loader-to-fetch-data":
+  resolved "git+ssh://git@github.com/20-react-router/06-use-loader-to-fetch-data.git"
+
+"06-word-slice@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\06-accessing-other-state-in-selectors":
+  resolved "git+ssh://git@github.com/22-redux/06-accessing-other-state-in-selectors.git"
+
+"07-access-loader-data-in-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\07-access-loader-data-in-components":
+  resolved "git+ssh://git@github.com/20-react-router/07-access-loader-data-in-components.git"
+
+"07-config-proxy@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\07-config-proxy":
+  resolved "git+ssh://git@github.com/13-fetch-data/07-config-proxy.git"
+
+"07-form-validation@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\05-react-form-basics\\07-form-validation":
+  resolved "git+ssh://git@github.com/05-react-form-basics/07-form-validation.git"
+
+"07-integrate-with-animate-css@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\19-react-animations\\07-integrate-with-animate-css":
+  resolved "git+ssh://git@github.com/19-react-animations/07-integrate-with-animate-css.git"
+
+"07-nesting-styles@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\18-styled-components\\07-nesting-styles":
+  resolved "git+ssh://git@github.com/18-styled-components/07-nesting-styles.git"
+
+"07-passing-event-handlers-to-child-component@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\03-react-component-basics\\07-passing-event-handlers-to-child-component":
+  resolved "git+ssh://git@github.com/03-react-component-basics/07-passing-event-handlers-to-child-component.git"
+
+"07-react-props-pass-through@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\07-react-props-pass-through":
+  resolved "git+ssh://git@github.com/08-advanced-props/07-react-props-pass-through.git"
+
+"07-uncontrolled-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\11-advanced-components\\07-uncontrolled-components":
+  resolved "git+ssh://git@github.com/11-advanced-components/07-uncontrolled-components.git"
+
+"07-update-array-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\07-update-array-state":
+  resolved "git+ssh://git@github.com/22-redux/07-update-array-state.git"
+
+"07-use-comments-in-jsx@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\07-use-comments-in-jsx":
+  resolved "git+ssh://git@github.com/02-react-basics/07-use-comments-in-jsx.git"
+
+"08-cancel-request@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\08-cancel-request":
+  resolved "git+ssh://git@github.com/13-fetch-data/08-cancel-request.git"
+
+"08-classnames-passing-and-merging@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\08-classnames-passing-and-merging":
+  resolved "git+ssh://git@github.com/08-advanced-props/08-classnames-passing-and-merging.git"
+
+"08-get-dynamic-params@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\08-get-dynamic-params":
+  resolved "git+ssh://git@github.com/20-react-router/08-get-dynamic-params.git"
+
+"08-handle-events@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\08-handle-events":
+  resolved "git+ssh://git@github.com/02-react-basics/08-handle-events.git"
+
+"08-higher-order-components@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\11-advanced-components\\08-higher-order-components":
+  resolved "git+ssh://git@github.com/11-advanced-components/08-higher-order-components.git"
+
+"08-local-form-handling@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\08-local-form-handling":
+  resolved "git+ssh://git@github.com/22-redux/08-local-form-handling.git"
+
+"08-passing-data-to-parent-component@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\03-react-component-basics\\08-passing-data-to-parent-component":
+  resolved "git+ssh://git@github.com/03-react-component-basics/08-passing-data-to-parent-component.git"
+
+"08-theme@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\18-styled-components\\08-theme":
+  resolved "git+ssh://git@github.com/18-styled-components/08-theme.git"
+
+"09-active-nav-link@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\09-active-nav-link":
+  resolved "git+ssh://git@github.com/20-react-router/09-active-nav-link.git"
+
+"09-add-style-classes@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\09-add-style-classes":
+  resolved "git+ssh://git@github.com/02-react-basics/09-add-style-classes.git"
+
+"09-as-another-element@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\18-styled-components\\09-as-another-element":
+  resolved "git+ssh://git@github.com/18-styled-components/09-as-another-element.git"
+
+"09-enhance-fetch@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\09-enhance-fetch":
+  resolved "git+ssh://git@github.com/13-fetch-data/09-enhance-fetch.git"
+
+"09-global-form-handling-search@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\09-global-form-handling-search":
+  resolved "git+ssh://git@github.com/22-redux/09-global-form-handling-search.git"
+
+"10-add-inline-style@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\10-add-inline-style":
+  resolved "git+ssh://git@github.com/02-react-basics/10-add-inline-style.git"
+
+"10-form-get-request@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\10-form-routing":
+  resolved "git+ssh://git@github.com/20-react-router/10-form-routing.git"
+
+"10-global-form-handling-sort@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\10-global-form-handling-sort":
+  resolved "git+ssh://git@github.com/22-redux/10-global-form-handling-sort.git"
+
+"10-use-axios@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\10-use-axios":
+  resolved "git+ssh://git@github.com/13-fetch-data/10-use-axios.git"
+
+"11-display-images@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\02-react-basics\\11-display-images":
+  resolved "git+ssh://git@github.com/02-react-basics/11-display-images.git"
+
+"11-form-post@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\11-form-post":
+  resolved "git+ssh://git@github.com/20-react-router/11-form-post.git"
+
+"11-global-form-handling-select@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\11-global-form-handling-select":
+  resolved "git+ssh://git@github.com/22-redux/11-global-form-handling-select.git"
+
+"12-enhance-axios@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\12-enhance-axios":
+  resolved "git+ssh://git@github.com/13-fetch-data/12-enhance-axios.git"
+
+"12-redirect@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\12-redirect":
+  resolved "git+ssh://git@github.com/20-react-router/12-redirect.git"
+
+"12-use-selector-from-other-selector@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\12-use-selector-from-other-selector":
+  resolved "git+ssh://git@github.com/22-redux/12-use-selector-from-other-selector.git"
+
+"13-12-axios-cancel-request@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\13-fetch-data\\11-axios-cancel-request":
+  resolved "git+ssh://git@github.com/13-fetch-data/11-axios-cancel-request.git"
+
+"13-exercise-remaining-words@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\13-exercise-remaining-words":
+  resolved "git+ssh://git@github.com/22-redux/13-exercise-remaining-words.git"
+
+"13-form-default-values@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\13-form-default-values":
+  resolved "git+ssh://git@github.com/20-react-router/13-form-default-values.git"
+
+"14-form-put@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\14-form-put":
+  resolved "git+ssh://git@github.com/20-react-router/14-form-put.git"
+
+"14-thunk-get-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\14-thunk-get-state":
+  resolved "git+ssh://git@github.com/22-redux/14-thunk-get-state.git"
+
+"15-form-delete@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\15-form-delete":
+  resolved "git+ssh://git@github.com/20-react-router/15-form-delete.git"
+
+"15-prepare-async-requests@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\15-prepare-async-requests":
+  resolved "git+ssh://git@github.com/22-redux/15-prepare-async-requests.git"
+
+"16-navigate-programmatically@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\16-navigate-programmatically":
+  resolved "git+ssh://git@github.com/20-react-router/16-navigate-programmatically.git"
+
+"16-thunk-get-request@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\16-thunk-get-request":
+  resolved "git+ssh://git@github.com/22-redux/16-thunk-get-request.git"
+
+"17-dispatch-async-thunk@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\17-dispatch-async-thunk":
+  resolved "git+ssh://git@github.com/22-redux/17-dispatch-async-thunk.git"
+
+"17-form-get-search@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\17-form-get-search":
+  resolved "git+ssh://git@github.com/20-react-router/17-form-get-search.git"
+
+"18-thunk-post-request@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\18-thunk-post-request":
+  resolved "git+ssh://git@github.com/22-redux/18-thunk-post-request.git"
+
+"18-url-form-sync@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\19-url-form-sync":
+  resolved "git+ssh://git@github.com/20-react-router/19-url-form-sync.git"
+
+"18-usesubmit@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\18-usesubmit":
+  resolved "git+ssh://git@github.com/20-react-router/18-usesubmit.git"
+
+"19-thunk-put-request@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\19-thunk-put-request":
+  resolved "git+ssh://git@github.com/22-redux/19-thunk-put-request.git"
+
+"20-form-replace-vs-push@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\20-form-replace-vs-push":
+  resolved "git+ssh://git@github.com/20-react-router/20-form-replace-vs-push.git"
+
+"20-rtk-query-fetch-data@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\20-rtk-query-fetch-data":
+  resolved "git+ssh://git@github.com/22-redux/20-rtk-query-fetch-data.git"
+
+"21-rtk-data-mutation@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\21-rtk-data-mutation":
+  resolved "git+ssh://git@github.com/22-redux/21-rtk-data-mutation.git"
+
+"21-use-fetcher-to-prevent-redirects@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\21-use-fetcher-to-prevent-redirects":
+  resolved "git+ssh://git@github.com/20-react-router/21-use-fetcher-to-prevent-redirects.git"
+
+"22-optimisitc-ui@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\22-optimistic-ui":
+  resolved "git+ssh://git@github.com/20-react-router/22-optimistic-ui.git"
+
+"22-rtk-reinvalidate-data@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\22-rtk-reinvalidate-data":
+  resolved "git+ssh://git@github.com/22-redux/22-rtk-reinvalidate-data.git"
+
+"23-global-loading@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\23-global-loading":
+  resolved "git+ssh://git@github.com/20-react-router/23-global-loading.git"
+
+"23-rtk-optimistic-ui@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\22-redux\\23-rtk-optimistic-ui":
+  resolved "git+ssh://git@github.com/22-redux/23-rtk-optimistic-ui.git"
+
+"24-searching-loading@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\24-searching-loading":
+  resolved "git+ssh://git@github.com/20-react-router/24-searching-loading.git"
+
+"25-error-handling@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\25-error-handling":
+  resolved "git+ssh://git@github.com/20-react-router/25-error-handling.git"
+
+"26-error-boundary@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\26-error-boundary":
+  resolved "git+ssh://git@github.com/20-react-router/26-error-boundary.git"
+
+"27-custom-response-error@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\27-custom-response-error":
+  resolved "git+ssh://git@github.com/20-react-router/27-custom-response-error.git"
+
+"28-json-utility@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\28-json-utility":
+  resolved "git+ssh://git@github.com/20-react-router/28-json-utility.git"
+
+"29-defer-loader@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\29-defer-loader":
+  resolved "git+ssh://git@github.com/20-react-router/29-defer-loader.git"
+
+"30-use-async-value@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\30-use-async-value":
+  resolved "git+ssh://git@github.com/20-react-router/30-use-async-value.git"
+
+"31-use-fetcher-in-await@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\31-use-fetcher-in-await":
+  resolved "git+ssh://git@github.com/20-react-router/31-use-fetcher-in-await.git"
+
+"32-scroll-restoration@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\32-scroll-restoration":
+  resolved "git+ssh://git@github.com/20-react-router/32-scroll-restoration.git"
+
+"33-config-router-using-jsx@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\20-react-router\\33-config-router-using-jsx":
+  resolved "git+ssh://git@github.com/20-react-router/33-config-router-using-jsx.git"
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.6"
@@ -4817,11 +3063,6 @@ ajv@^8.8.0, ajv@^8.8.2:
     json-schema-traverse "^1.0.0"
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
-
-animate.css@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/animate.css/-/animate.css-4.1.1.tgz"
-  integrity sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==
 
 ansi-escapes@^4.2.1, ansi-escapes@^4.3.1:
   version "4.3.2"
@@ -5021,15 +3262,6 @@ axe-core@^4.4.3:
   version "4.5.0"
   resolved "https://registry.npmjs.org/axe-core/-/axe-core-4.5.0.tgz"
   integrity sha512-4+rr8eQ7+XXS5nZrKcMO/AikHL0hVqy+lHWAnE3xdHl+aguag8SOQ6eEqLexwLNWgXIMfunGuD3ON1/6Kyet0A==
-
-axios@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/axios/-/axios-1.4.0.tgz"
-  integrity sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==
-  dependencies:
-    follow-redirects "^1.15.0"
-    form-data "^4.0.0"
-    proxy-from-env "^1.1.0"
 
 axobject-query@^2.2.0:
   version "2.2.0"
@@ -6738,7 +4970,7 @@ expect@^29.0.0:
     jest-message-util "^29.5.0"
     jest-util "^29.5.0"
 
-express@^4.17.3, express@^4.18.2:
+express@^4.17.3:
   version "4.18.2"
   resolved "https://registry.npmjs.org/express/-/express-4.18.2.tgz"
   integrity sha512-5/PsL6iGPdfQ/lKM1UuielYgv3BUoJfz1aUwU9vHZ+J7gyvwdQXFEBIEIaxeGf0GIcreATNyBExtalisDbuMqQ==
@@ -7358,7 +5590,7 @@ http-proxy-agent@^4.0.1:
     agent-base "6"
     debug "4"
 
-http-proxy-middleware@^2.0.3, http-proxy-middleware@^2.0.6:
+http-proxy-middleware@^2.0.3:
   version "2.0.6"
   resolved "https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-2.0.6.tgz"
   integrity sha512-ya/UeJ6HVBYxrgYotAZo1KvPWlgB48kUJLDePFeneHsVujFaW5WNj2NgWCAE//B1Dl02BIfYlpNgBy8Kf8Rjmw==
@@ -9902,9 +8134,8 @@ react-app-polyfill@^3.0.0:
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
 
-"react-complete-guide-code@file:C:\\Users\\kents\\Desktop\\React_source_code":
-  version "1.0.0"
-  resolved "file:"
+"react-complete-guide-code@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code":
+  resolved "file:../../React_source_code"
 
 react-dev-utils@^12.0.1:
   version "12.0.1"
@@ -9969,7 +8200,7 @@ react-is@^18.0.0:
   resolved "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-"react-redux@^7.2.1 || ^8.0.2", react-redux@^8.1.2:
+"react-redux@^7.2.1 || ^8.0.2":
   version "8.1.3"
   resolved "https://registry.npmjs.org/react-redux/-/react-redux-8.1.3.tgz"
   integrity sha512-n0ZrutD7DaX/j9VscF+uTALI3oUPa/pO4Z3soOBIjuRn/FzVu6aehhysxZCLi6y7duMf52WNZGMl7CtuK5EnRw==
@@ -9985,14 +8216,6 @@ react-refresh@^0.11.0, "react-refresh@>=0.10.0 <1.0.0":
   version "0.11.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
-
-react-router-dom@^6.11.2:
-  version "6.11.2"
-  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.11.2.tgz"
-  integrity sha512-JNbKtAeh1VSJQnH6RvBDNhxNwemRj7KxCzc5jb7zvDSKRnPWIFj9pO+eXqjM69gQJ0r46hSz1x4l9y0651DKWw==
-  dependencies:
-    "@remix-run/router" "1.6.2"
-    react-router "6.11.2"
 
 react-router@6.11.2:
   version "6.11.2"
@@ -10055,16 +8278,6 @@ react-scripts@5.0.1:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
-
-react-transition-group@^4.4.5:
-  version "4.4.5"
-  resolved "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz"
-  integrity sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    dom-helpers "^5.0.1"
-    loose-envify "^1.4.0"
-    prop-types "^15.6.2"
 
 "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18", react@^18.0.0, react@^18.2.0, "react@>= 16", "react@>= 16.8.0", react@>=16.6.0, react@>=16.8:
   version "18.2.0"
@@ -10856,21 +9069,6 @@ style-loader@^3.3.1:
   resolved "https://registry.npmjs.org/style-loader/-/style-loader-3.3.1.tgz"
   integrity sha512-GPcQ+LDJbrcxHORTRes6Jy2sfvK2kS6hpSfI/fXhPt+spVzxF6LJ1dHLN9zIGmVaaP044YKaIatFaufENRiDoQ==
 
-styled-components@^6.1.8:
-  version "6.1.8"
-  resolved "https://registry.npmjs.org/styled-components/-/styled-components-6.1.8.tgz"
-  integrity sha512-PQ6Dn+QxlWyEGCKDS71NGsXoVLKfE1c3vApkvDYS5KAK+V8fNWGhbSUEo9Gg2iaID2tjLXegEW3bZDUGpofRWw==
-  dependencies:
-    "@emotion/is-prop-valid" "1.2.1"
-    "@emotion/unitless" "0.8.0"
-    "@types/stylis" "4.2.0"
-    css-to-react-native "3.2.0"
-    csstype "3.1.2"
-    postcss "8.4.31"
-    shallowequal "1.1.0"
-    stylis "4.3.1"
-    tslib "2.5.0"
-
 stylehacks@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npmjs.org/stylehacks/-/stylehacks-5.1.0.tgz"
@@ -11379,7 +9577,7 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-web-vitals@^2.1.0, web-vitals@^2.1.4:
+web-vitals@^2.1.0:
   version "2.1.4"
   resolved "https://registry.npmjs.org/web-vitals/-/web-vitals-2.1.4.tgz"
   integrity sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==
