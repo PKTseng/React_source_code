@@ -8,12 +8,19 @@ function App() {
     setList([...list, list.length + 1])
   }
 
+  const handleAddPlus = (index) => {
+    const newList = [...list]
+    newList[index] += 10
+
+    setList(newList)
+  }
+
   return (
     <div className="container">
       <ul>
         {list.map((item, index) => (
           <li key={index}>
-            {item} <button>+10</button>{' '}
+            {item} <button onClick={() => handleAddPlus(index)}>+10</button>
           </li>
         ))}
       </ul>
