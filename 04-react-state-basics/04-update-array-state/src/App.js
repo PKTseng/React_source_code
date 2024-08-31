@@ -15,12 +15,22 @@ function App() {
     setList(newList)
   }
 
+  const handleDeleteItem = (item) => {
+    setList([...list].filter((i) => i !== item))
+
+    const newList = [...list]
+    newList.splice(0, 1)
+    setList(newList)
+  }
+
   return (
     <div className="container">
       <ul>
         {list.map((item, index) => (
           <li key={index}>
-            {item} <button onClick={() => handleAddPlus(index)}>+10</button>
+            {item}
+            <button onClick={() => handleAddPlus(index)}>+10</button>
+            <button onClick={() => handleDeleteItem(item)}>Delete</button>
           </li>
         ))}
       </ul>
