@@ -36,12 +36,33 @@ function App() {
     },
   ])
 
+  const [content, setContent] = useState('')
+
+  const handleInputText = (e) => {
+    setContent(e.target.value)
+  }
+
+  const submit = () => {
+    const newPost = {
+      id: posts.length + 1,
+      author: {
+        name: 'ken',
+        avatar: UserImage1,
+      },
+      content,
+      publishDate: new Date().toISOString().split('T')[0],
+    }
+
+    setPosts([...posts, newPost])
+    setContent('')
+  }
+
   return (
     <main className="container">
       <h1>歡迎使用社群貼文應用 📱</h1>
       <div className="publish-post">
-        <textarea placeholder="分享你的想法..." cols="30" rows="5"></textarea>
-        <button>發布</button>
+        <textarea onChange={handleInputText} value={content} placeholder="分享你的想法..." cols="30" rows="5"></textarea>
+        <button onClick={submit}>發布</button>
       </div>
       <div className="post-list">{posts.length > 0 ? posts.map((post) => <PostListItem blog={post} key={post.id} />) : <p>目前沒有貼文</p>}</div>
     </main>
