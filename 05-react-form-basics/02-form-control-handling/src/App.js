@@ -2,41 +2,32 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [username, setUsername] = useState('')
-  const [password, setPassword] = useState('')
-  const [repeatPassword, setRepeatPassword] = useState('')
-  const [gender, setGender] = useState('')
-  const [occupation, setOccupation] = useState('')
-  const [hobbies, setHobbies] = useState([])
+  const [user, setUser] = useState({
+    username: '',
+    password: '',
+    repeatPassword: '',
+    gender: '',
+    occupation: '',
+    hobbies: [],
+  })
 
-  function handleUsernameChange(e) {
-    setUsername(e.target.value)
-  }
+  const handleSubmit = (e) => {
+    let { type, value, name } = e.target
+    console.log('type', type)
+    console.log('value', value)
+    console.log('name', name)
 
-  function handlePasswordChange(e) {
-    setPassword(e.target.value)
-  }
+    if (type === 'checkbox') {
+      const { checked } = e.target
 
-  function handleRepeatPasswordChange(e) {
-    setRepeatPassword(e.target.value)
-  }
-
-  function handleGenderChange(e) {
-    setGender(e.target.value)
-  }
-
-  function handleOccupationChange(e) {
-    setOccupation(e.target.value)
-  }
-
-  function handleHobbiesChange(e) {
-    const { value, checked } = e.target
-
-    if (checked) {
-      setHobbies([...hobbies, value])
-    } else {
-      setHobbies(hobbies.filter((i) => i !== value))
+      if (checked) {
+        value = [...user.hobbies, value]
+      } else {
+        value = user.hobbies.filter((i) => i !== value)
+      }
     }
+
+    setUser({ ...user, [name]: value })
   }
 
   return (
@@ -46,15 +37,21 @@ function App() {
         <form>
           <div className="form-group">
             <label htmlFor="username">帳號</label>
-            <input type="text" id="username" value={username} onChange={handleUsernameChange} />
+            <input type="text" id="username" name="username" value={user.username} onChange={handleSubmit} />
           </div>
           <div className="form-group">
             <label htmlFor="password">密碼</label>
-            <input type="password" id="password" value={password} onChange={handlePasswordChange} />
+            <input type="password" id="password" name="password" value={user.password} onChange={handleSubmit} />
           </div>
           <div className="form-group">
             <label htmlFor="repeatPassword">確認密碼</label>
-            <input type="password" id="repeatPassword" value={repeatPassword} onChange={handleRepeatPasswordChange} />
+            <input
+              type="password"
+              id="repeatPassword"
+              name="repeatPassword"
+              value={user.repeatPassword}
+              onChange={handleSubmit}
+            />
           </div>
           <div className="form-group">
             <label>性別</label>
@@ -64,8 +61,8 @@ function App() {
                   type="radio"
                   name="gender"
                   value="male"
-                  checked={gender === 'male'}
-                  onChange={handleGenderChange}
+                  checked={user.gender === 'male'}
+                  onChange={handleSubmit}
                 />
                 男性
               </label>
@@ -74,8 +71,8 @@ function App() {
                   type="radio"
                   name="gender"
                   value="female"
-                  checked={gender === 'female'}
-                  onChange={handleGenderChange}
+                  checked={user.gender === 'female'}
+                  onChange={handleSubmit}
                 />
                 女性
               </label>
@@ -83,7 +80,7 @@ function App() {
           </div>
           <div className="form-group">
             <label htmlFor="occupation">職業</label>
-            <select id="occupation" value={occupation} onChange={handleOccupationChange}>
+            <select id="occupation" name="occupation" value={user.occupation} onChange={handleSubmit}>
               <option value="">請選擇</option>
               <option value="frontend">前端工程師</option>
               <option value="backend">後端工程師</option>
@@ -96,30 +93,30 @@ function App() {
               <label>
                 <input
                   type="checkbox"
-                  name="hobby"
+                  name="hobbies"
                   value="programming"
-                  onChange={handleHobbiesChange}
-                  checked={hobbies.includes('programming')}
+                  onChange={handleSubmit}
+                  checked={user.hobbies.includes('programming')}
                 />
                 寫程式
               </label>
               <label>
                 <input
                   type="checkbox"
-                  name="hobby"
+                  name="hobbies"
                   value="drawing"
-                  onChange={handleHobbiesChange}
-                  checked={hobbies.includes('drawing')}
+                  onChange={handleSubmit}
+                  checked={user.hobbies.includes('drawing')}
                 />
                 畫畫
               </label>
               <label>
                 <input
                   type="checkbox"
-                  name="hobby"
+                  name="hobbies"
                   value="music"
-                  onChange={handleHobbiesChange}
-                  checked={hobbies.includes('music')}
+                  onChange={handleSubmit}
+                  checked={user.hobbies.includes('music')}
                 />
                 聽音樂
               </label>
@@ -131,12 +128,12 @@ function App() {
         <div className="user-info">
           <h2>已輸入的資料</h2>
           <ul>
-            <li>帳號：{username}</li>
-            <li>密碼：{password}</li>
-            <li>確認密碼：{repeatPassword}</li>
-            <li>性別：{gender}</li>
-            <li>職業：{occupation}</li>
-            <li>興趣：{hobbies.join('、')}</li>
+            <li>帳號：{user.username}</li>
+            <li>密碼：{user.password}</li>
+            <li>確認密碼：{user.repeatPassword}</li>
+            <li>性別：{user.gender}</li>
+            <li>職業：{user.occupation}</li>
+            <li>興趣：{user.hobbies.join('、')}</li>
           </ul>
         </div>
       </div>
