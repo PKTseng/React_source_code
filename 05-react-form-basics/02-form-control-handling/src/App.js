@@ -1,141 +1,147 @@
-import { useState } from "react";
-import "./App.css";
+import { useState } from 'react'
+import './App.css'
 
 function App() {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [repeatPassword, setRepeatPassword] = useState("");
-  const [gender, setGender] = useState("");
-  const [occupation, setOccupation] = useState("");
-  const [hobbies, setHobbies] = useState([]);
+  const [username, setUsername] = useState('')
+  const [password, setPassword] = useState('')
+  const [repeatPassword, setRepeatPassword] = useState('')
+  const [gender, setGender] = useState('')
+  const [occupation, setOccupation] = useState('')
+  const [hobbies, setHobbies] = useState([])
 
   function handleUsernameChange(e) {
-    setUsername(e.target.value);
+    setUsername(e.target.value)
   }
 
   function handlePasswordChange(e) {
-    setPassword(e.target.value);
+    setPassword(e.target.value)
   }
 
   function handleRepeatPasswordChange(e) {
-    setRepeatPassword(e.target.value);
+    setRepeatPassword(e.target.value)
   }
 
   function handleGenderChange(e) {
-    setGender(e.target.value);
+    setGender(e.target.value)
   }
 
   function handleOccupationChange(e) {
-    setOccupation(e.target.value);
+    setOccupation(e.target.value)
   }
 
   function handleHobbiesChange(e) {
-    const { checked, value } = e.target;
+    const { value, checked } = e.target
+
     if (checked) {
-      setHobbies([...hobbies, value]);
+      setHobbies([...hobbies, value])
     } else {
-      setHobbies(hobbies.filter((hobby) => hobby !== value));
+      setHobbies(hobbies.filter((i) => i !== value))
     }
   }
 
   return (
     <main className="container">
-      <h1>用户注册</h1>
-      <form>
-        <label htmlFor="username">用户名</label>
-        <input
-          type="text"
-          id="username"
-          value={username}
-          onChange={handleUsernameChange}
-        />
-        <label htmlFor="password">密码</label>
-        <input
-          type="password"
-          id="password"
-          value={password}
-          onChange={handlePasswordChange}
-        />
-        <label htmlFor="repeatPassword">重复密码</label>
-        <input
-          type="password"
-          id="repeatPassword"
-          value={repeatPassword}
-          onChange={handleRepeatPasswordChange}
-        />
-        <label htmlFor="gender">性别</label>
-        <fieldset id="gender">
-          <input
-            type="radio"
-            id="male"
-            name="gender"
-            value="male"
-            checked={gender === "male"}
-            onChange={handleGenderChange}
-          />
-          <label htmlFor="male">男</label>
-          <input
-            type="radio"
-            id="female"
-            name="gender"
-            value="female"
-            checked={gender === "female"}
-            onChange={handleGenderChange}
-          />
-          <label htmlFor="female">女</label>
-        </fieldset>
-        <label htmlFor="occupation">职业</label>
-        <select
-          id="occupation"
-          value={occupation}
-          onChange={handleOccupationChange}
-        >
-          <option value="">请选择</option>
-          <option value="frontend">前端</option>
-          <option value="backend">后端</option>
-          <option value="fullstack">全栈</option>
-        </select>
-        <label htmlFor="hobbies">兴趣</label>
-        <fieldset id="hobbies">
-          <input
-            type="checkbox"
-            name="hobby"
-            value="programming"
-            id="programming"
-            onChange={handleHobbiesChange}
-            checked={hobbies.includes("programming")}
-          />
-          <label htmlFor="programming">编程</label>
-          <input
-            type="checkbox"
-            name="hobby"
-            value="drawing"
-            id="drawing"
-            onChange={handleHobbiesChange}
-            checked={hobbies.includes("drawing")}
-          />
-          <label htmlFor="drawing">绘画</label>
-          <input
-            type="checkbox"
-            name="hobby"
-            value="music"
-            id="music"
-            onChange={handleHobbiesChange}
-            checked={hobbies.includes("music")}
-          />
-          <label htmlFor="music">音乐</label>
-        </fieldset>
-      </form>
-      <ul>
-        <li>用户名：{username}</li>
-        <li>密码：{password}</li>
-        <li>重复密码：{repeatPassword}</li>
-        <li>性别：{gender}</li>
-        <li>职业：{occupation}</li>
-        <li>兴趣：{hobbies.join(", ")}</li>
-      </ul>
+      <h1>使用者註冊</h1>
+      <div className="form-container">
+        <form>
+          <div className="form-group">
+            <label htmlFor="username">帳號</label>
+            <input type="text" id="username" value={username} onChange={handleUsernameChange} />
+          </div>
+          <div className="form-group">
+            <label htmlFor="password">密碼</label>
+            <input type="password" id="password" value={password} onChange={handlePasswordChange} />
+          </div>
+          <div className="form-group">
+            <label htmlFor="repeatPassword">確認密碼</label>
+            <input type="password" id="repeatPassword" value={repeatPassword} onChange={handleRepeatPasswordChange} />
+          </div>
+          <div className="form-group">
+            <label>性別</label>
+            <div className="radio-group">
+              <label>
+                <input
+                  type="radio"
+                  name="gender"
+                  value="male"
+                  checked={gender === 'male'}
+                  onChange={handleGenderChange}
+                />
+                男性
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  name="gender"
+                  value="female"
+                  checked={gender === 'female'}
+                  onChange={handleGenderChange}
+                />
+                女性
+              </label>
+            </div>
+          </div>
+          <div className="form-group">
+            <label htmlFor="occupation">職業</label>
+            <select id="occupation" value={occupation} onChange={handleOccupationChange}>
+              <option value="">請選擇</option>
+              <option value="frontend">前端工程師</option>
+              <option value="backend">後端工程師</option>
+              <option value="fullstack">全端工程師</option>
+            </select>
+          </div>
+          <div className="form-group">
+            <label>興趣</label>
+            <div className="checkbox-group">
+              <label>
+                <input
+                  type="checkbox"
+                  name="hobby"
+                  value="programming"
+                  onChange={handleHobbiesChange}
+                  checked={hobbies.includes('programming')}
+                />
+                寫程式
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  name="hobby"
+                  value="drawing"
+                  onChange={handleHobbiesChange}
+                  checked={hobbies.includes('drawing')}
+                />
+                畫畫
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  name="hobby"
+                  value="music"
+                  onChange={handleHobbiesChange}
+                  checked={hobbies.includes('music')}
+                />
+                聽音樂
+              </label>
+            </div>
+          </div>
+          <button type="submit">註冊</button>
+        </form>
+
+        <div className="user-info">
+          <h2>已輸入的資料</h2>
+          <ul>
+            <li>帳號：{username}</li>
+            <li>密碼：{password}</li>
+            <li>確認密碼：{repeatPassword}</li>
+            <li>性別：{gender}</li>
+            <li>職業：{occupation}</li>
+            <li>興趣：{hobbies.join('、')}</li>
+          </ul>
+        </div>
+      </div>
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
