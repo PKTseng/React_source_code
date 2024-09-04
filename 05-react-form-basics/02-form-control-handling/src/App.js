@@ -2,14 +2,16 @@ import { Fragment, useState } from 'react'
 import './App.css'
 
 function App() {
-  const [user, setUser] = useState({
+  const initUser = {
     username: '',
     password: '',
     repeatPassword: '',
     gender: '',
     occupation: '',
     hobbies: [],
-  })
+  }
+
+  const [user, setUser] = useState(initUser)
 
   const gender = [
     { label: 'Boy', value: 'male' },
@@ -47,11 +49,15 @@ function App() {
     console.log(user)
   }
 
+  const handleFormReset = () => {
+    setUser(initUser)
+  }
+
   return (
     <main className="container">
       <h1>使用者註冊</h1>
       <div className="form-container">
-        <form action="" onSubmit={handleFromSubmit}>
+        <form onSubmit={handleFromSubmit} onReset={handleFormReset}>
           <div className="form-group">
             <label htmlFor="username">帳號</label>
             <input type="text" id="username" name="username" value={user.username} onChange={handleSubmit} />
@@ -166,6 +172,7 @@ function App() {
             </div>
           </div>
           <button type="submit">註冊</button>
+          <button type="reset">重製</button>
         </form>
 
         <div className="user-info">
