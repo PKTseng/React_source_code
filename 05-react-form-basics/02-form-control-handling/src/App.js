@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Fragment, useState } from 'react'
 import './App.css'
 
 function App() {
@@ -11,11 +11,22 @@ function App() {
     hobbies: [],
   })
 
+  const gender = [
+    { label: 'Boy', value: 'male' },
+    { label: 'Girl', value: 'female' },
+  ]
+
+  const hobbies = [
+    { label: '寫程式', value: 'programming' },
+    { label: '畫畫', value: 'drawing' },
+    { label: '聽音樂', value: 'music' },
+  ]
+
   const handleSubmit = (e) => {
     let { type, value, name } = e.target
-    console.log('type', type)
-    console.log('value', value)
-    console.log('name', name)
+    // console.log('type', type)
+    // console.log('value', value)
+    // console.log('name', name)
 
     if (type === 'checkbox') {
       const { checked } = e.target
@@ -56,7 +67,19 @@ function App() {
           <div className="form-group">
             <label>性別</label>
             <div className="radio-group">
-              <label>
+              {gender.map((item) => (
+                <Fragment key={item.value}>
+                  <label>{item.label}</label>
+                  <input
+                    type="radio"
+                    name="gender"
+                    value={item.value}
+                    checked={user.gender === item.value}
+                    onChange={handleSubmit}
+                  />
+                </Fragment>
+              ))}
+              {/* <label>
                 <input
                   type="radio"
                   name="gender"
@@ -65,8 +88,8 @@ function App() {
                   onChange={handleSubmit}
                 />
                 男性
-              </label>
-              <label>
+              </label> */}
+              {/* <label>
                 <input
                   type="radio"
                   name="gender"
@@ -75,7 +98,7 @@ function App() {
                   onChange={handleSubmit}
                 />
                 女性
-              </label>
+              </label> */}
             </div>
           </div>
           <div className="form-group">
@@ -90,7 +113,21 @@ function App() {
           <div className="form-group">
             <label>興趣</label>
             <div className="checkbox-group">
-              <label>
+              {hobbies.map((h) => (
+                <Fragment>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="hobbies"
+                      value={h.value}
+                      onChange={handleSubmit}
+                      checked={user.hobbies.includes(h.value)}
+                    />
+                    {h.label}
+                  </label>
+                </Fragment>
+              ))}
+              {/* <label>
                 <input
                   type="checkbox"
                   name="hobbies"
@@ -119,7 +156,7 @@ function App() {
                   checked={user.hobbies.includes('music')}
                 />
                 聽音樂
-              </label>
+              </label> */}
             </div>
           </div>
           <button type="submit">註冊</button>
