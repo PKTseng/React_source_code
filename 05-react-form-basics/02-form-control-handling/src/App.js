@@ -41,11 +41,17 @@ function App() {
     setUser({ ...user, [name]: value })
   }
 
+  const handleFromSubmit = (e) => {
+    e.preventDefault()
+
+    console.log(user)
+  }
+
   return (
     <main className="container">
       <h1>使用者註冊</h1>
       <div className="form-container">
-        <form>
+        <form action="" onSubmit={handleFromSubmit}>
           <div className="form-group">
             <label htmlFor="username">帳號</label>
             <input type="text" id="username" name="username" value={user.username} onChange={handleSubmit} />
@@ -114,7 +120,7 @@ function App() {
             <label>興趣</label>
             <div className="checkbox-group">
               {hobbies.map((h) => (
-                <Fragment>
+                <Fragment key={h.value}>
                   <label>
                     <input
                       type="checkbox"
