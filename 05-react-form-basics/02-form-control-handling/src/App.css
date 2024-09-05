@@ -181,3 +181,10 @@ select:hover {
     font-size: 2rem;
   }
 }
+
+.formError {
+  margin-top: 4px;
+  font-size: 12px;
+  color: red;
+  font-weight: 600;
+}

@@ -24,11 +24,27 @@ function App() {
     { label: '聽音樂', value: 'music' },
   ]
 
+  const [formError, setFormError] = useState({})
+
+  const rules = {
+    username: (value) => {
+      if (value.length < 3 || value.length > 12) {
+        return '用戶名必須是3到12個字符'
+      }
+    },
+    password: (value) => {
+      if (value.length < 8) {
+        return '密碼至少需要8個字符'
+      }
+
+      if (!/[A-Z]/.test(value) || !/[a-z]/.test(value) || !/[0-9]/.test(value)) {
+        return '密碼必須包含大小寫字母和數字'
+      }
+    },
+  }
+
   const handleSubmit = (e) => {
     let { type, value, name } = e.target
-    // console.log('type', type)
-    // console.log('value', value)
-    // console.log('name', name)
 
     if (type === 'checkbox') {
       const { checked } = e.target
@@ -41,12 +57,27 @@ function App() {
     }
 
     setUser({ ...user, [name]: value })
+
+    const error = rules[name] && rules[name](value)
+
+    setFormError({ ...formError, [name]: error })
   }
 
   const handleFromSubmit = (e) => {
     e.preventDefault()
 
-    console.log(user)
+    for (let rule of Object.keys(rules)) {
+      console.log('rule=> ', rule)
+      console.log('rules[rule]=> ', rules[rule])
+      console.log('rules[rule](user[rule])=> ', rules[rule](user[rule]))
+
+      const error = rules[rule](user[rule]) // 錯誤提示
+
+      if (error) {
+        setFormError({ ...formError, [rule]: error })
+        return
+      }
+    }
   }
 
   const handleFormReset = () => {
@@ -61,10 +92,12 @@ function App() {
           <div className="form-group">
             <label htmlFor="username">帳號</label>
             <input type="text" id="username" name="username" value={user.username} onChange={handleSubmit} />
+            {formError.username && <span className="formError">{formError.username}</span>}
           </div>
           <div className="form-group">
             <label htmlFor="password">密碼</label>
             <input type="password" id="password" name="password" value={user.password} onChange={handleSubmit} />
+            {formError.password && <span className="formError">{formError.password}</span>}
           </div>
           <div className="form-group">
             <label htmlFor="repeatPassword">確認密碼</label>
@@ -91,26 +124,6 @@ function App() {
                   />
                 </Fragment>
               ))}
-              {/* <label>
-                <input
-                  type="radio"
-                  name="gender"
-                  value="male"
-                  checked={user.gender === 'male'}
-                  onChange={handleSubmit}
-                />
-                男性
-              </label> */}
-              {/* <label>
-                <input
-                  type="radio"
-                  name="gender"
-                  value="female"
-                  checked={user.gender === 'female'}
-                  onChange={handleSubmit}
-                />
-                女性
-              </label> */}
             </div>
           </div>
           <div className="form-group">
@@ -139,36 +152,6 @@ function App() {
                   </label>
                 </Fragment>
               ))}
-              {/* <label>
-                <input
-                  type="checkbox"
-                  name="hobbies"
-                  value="programming"
-                  onChange={handleSubmit}
-                  checked={user.hobbies.includes('programming')}
-                />
-                寫程式
-              </label>
-              <label>
-                <input
-                  type="checkbox"
-                  name="hobbies"
-                  value="drawing"
-                  onChange={handleSubmit}
-                  checked={user.hobbies.includes('drawing')}
-                />
-                畫畫
-              </label>
-              <label>
-                <input
-                  type="checkbox"
-                  name="hobbies"
-                  value="music"
-                  onChange={handleSubmit}
-                  checked={user.hobbies.includes('music')}
-                />
-                聽音樂
-              </label> */}
             </div>
           </div>
           <button type="submit">註冊</button>
