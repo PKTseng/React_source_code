@@ -1,14 +1,16 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
   const [dateTime, setDateTime] = useState(new Date())
 
-  const id = setInterval(() => {
-    setDateTime(new Date())
-  }, 1000)
+  useEffect(() => {
+    const id = setInterval(() => {
+      setDateTime(new Date())
+    }, 1000)
 
-  console.log(id)
+    console.log(id)
+  }, [])
 
   return (
     <main className="container">
