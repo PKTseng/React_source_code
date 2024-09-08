@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  const [dateTime, setDateTime] = useState(new Date())
+  // const [dateTime, setDateTime] = useState(new Date())
 
   // useEffect(() => {
   //   const id = setInterval(() => {
@@ -12,25 +12,36 @@ function App() {
   //   console.log(id)
   // }, [])
 
-  const [refresh, setRefresh] = useState(0)
+  // const [refresh, setRefresh] = useState(0)
+
+  // useEffect(() => {
+  //   const id = setInterval(() => {
+  //     setDateTime(new Date())
+  //   }, 1000)
+
+  //   console.log(id)
+
+  //   return () => {
+  //     clearInterval(id)
+  //     console.log('清除 Id =' + id + '的 interval')
+  //   }
+  // }, [refresh])
+
+  const [dateTime, setDateTime] = useState(new Date())
 
   useEffect(() => {
-    const id = setInterval(() => {
-      setDateTime(new Date())
-    }, 1000)
+    updateTime()
+  }, [])
 
-    console.log(id)
-
-    return () => {
-      clearInterval(id)
-      console.log('清除 Id =' + id + '的 interval')
-    }
-  }, [refresh])
+  async function updateTime() {
+    await new Promise((resolve) => setTimeout(resolve, 300))
+    setDateTime(new Date())
+  }
 
   return (
     <main className="container">
       <h1>{dateTime.toLocaleString('zh-CN')}</h1>
-      <button onClick={() => setRefresh(refresh + 1)}>add</button>
+      {/* <button onClick={() => setRefresh(refresh + 1)}>add</button> */}
     </main>
   )
 }
