@@ -1,14 +1,14 @@
-import "./App.css";
-import Menu from "./components/Menu";
+import './App.css'
+import Menu from './components/Menu'
 
 function App() {
   return (
     <Menu>
-      <Menu.Item>主页</Menu.Item>
-      <Menu.Item>关于</Menu.Item>
-      <Menu.Item>联系</Menu.Item>
+      <Menu.Item>Device</Menu.Item>
+      <Menu.Item>Map</Menu.Item>
+      <Menu.Item>Intersection</Menu.Item>
     </Menu>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react'
 
 function Menu({ children }) {
-  return <nav>{children}</nav>;
+  return <nav>{children}</nav>
 }
 
 function Item({ children }) {
-  return <a href="#">{children}</a>;
+  return <a href="#">{children}</a>
 }
 
-Menu.Item = Item;
+Menu.Item = Item
 
-export default Menu;
+export default Menu
