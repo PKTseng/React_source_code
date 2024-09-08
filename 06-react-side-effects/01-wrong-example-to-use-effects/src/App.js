@@ -13,8 +13,18 @@ function App() {
   // }, [])
 
   const [refresh, setRefresh] = useState(0)
+
   useEffect(() => {
-    setDateTime(new Date())
+    const id = setInterval(() => {
+      setDateTime(new Date())
+    }, 1000)
+
+    console.log(id)
+
+    return () => {
+      clearInterval(id)
+      console.log('清除 Id =' + id + '的 interval')
+    }
   }, [refresh])
 
   return (
