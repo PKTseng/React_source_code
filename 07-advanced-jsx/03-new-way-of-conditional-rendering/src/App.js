@@ -1,28 +1,37 @@
-import { useEffect, useState } from "react";
-import "./App.css";
+import { useEffect, useState } from 'react'
+import './App.css'
 
 function App() {
-  const [user, setUser] = useState();
+  const [user, setUser] = useState()
 
   useEffect(() => {
     setTimeout(() => {
       setUser({
-        name: "张三",
-        occupation: "前端工程师",
-      });
-    }, 3000);
-  }, []);
+        name: 'ken',
+        occupation: 'F2E',
+      })
+    }, 3000)
+  }, [])
 
   if (!user) {
-    return <div className="loading">loading...</div>;
+    return <div className="loading">loading...</div>
   }
 
   return (
     <main className="container">
-      <p>用户名：{user.name}</p>
-      <p>职业：{user.occupation}</p>
+      <p>User Name：{user.name}</p>
+      <p>JOB：{user.occupation}</p>
     </main>
-  );
+  )
+
+  // return user ? (
+  //   <main className="container">
+  //     <p>User Name：{user.name}</p>
+  //     <p>JOB：{user.occupation}</p>
+  //   </main>
+  // ) : (
+  //   <div className="loading">loading...</div>
+  // )
 }
 
-export default App;
+export default App
