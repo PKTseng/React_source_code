@@ -7,16 +7,25 @@ function App() {
   return (
     <main className="container">
       <User />
+
+      {tags.map((tag) => {
+        return (
+          <Fragment key={tag}>
+            <p>{tag}</p>
+            <hr />
+          </Fragment>
+        )
+      })}
     </main>
   )
 }
 
 function User() {
   return (
-    <Fragment>
+    <>
       <p>User Name : ken</p>
       <p>Job Title : front end</p>
-    </Fragment>
+    </>
   )
 }
 
