@@ -2449,7 +2449,16 @@
   resolved "git+ssh://git@github.com/21-react-context-api/01-passing-props-deeply.git"
 
 "01-props-data-flow@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\01-props-data-flow":
-  resolved "git+ssh://git@github.com/08-advanced-props/01-props-data-flow.git"
+  version "0.1.0"
+  resolved "file:08-advanced-props/01-props-data-flow"
+  dependencies:
+    "@testing-library/jest-dom" "^5.14.1"
+    "@testing-library/react" "^13.0.0"
+    "@testing-library/user-event" "^13.2.1"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    react-scripts "5.0.1"
+    web-vitals "^2.1.0"
 
 "01-react-dev-tools-component@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\15-react-debug\\01-react-dev-tools-component":
   resolved "git+ssh://git@github.com/15-react-debug/01-react-dev-tools-component.git"
@@ -2491,7 +2500,7 @@
   resolved "git+ssh://git@github.com/19-react-animations/02-css-keyframes.git"
 
 "02-define-a-component@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\03-react-component-basics\\02-define-a-component":
-  resolved "file:../../React_source_code/03-react-component-basics/02-define-a-component"
+  resolved "git+ssh://git@github.com/03-react-component-basics/02-define-a-component.git"
 
 "02-define-state@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\04-react-state-basics\\02-define-state":
   resolved "git+ssh://git@github.com/04-react-state-basics/02-define-state.git"
@@ -2560,7 +2569,16 @@
   resolved "git+ssh://git@github.com/07-advanced-jsx/03-new-way-of-conditional-rendering.git"
 
 "03-props-types@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\08-advanced-props\\03-props-types":
-  resolved "git+ssh://git@github.com/08-advanced-props/03-props-types.git"
+  version "0.1.0"
+  resolved "file:08-advanced-props/03-props-types"
+  dependencies:
+    "@testing-library/jest-dom" "^5.14.1"
+    "@testing-library/react" "^13.0.0"
+    "@testing-library/user-event" "^13.2.1"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    react-scripts "5.0.1"
+    web-vitals "^2.1.0"
 
 "03-put-fun-dep-outside@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code\\10-advanced-effects\\03-put-fun-dep-outside":
   resolved "git+ssh://git@github.com/10-advanced-effects/03-put-fun-dep-outside.git"
@@ -8133,9 +8151,6 @@ react-app-polyfill@^3.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
-
-"react-complete-guide-code@file:C:\\Users\\kents\\Desktop\\Side_Project\\React_source_code":
-  resolved "file:../../React_source_code"
 
 react-dev-utils@^12.0.1:
   version "12.0.1"
